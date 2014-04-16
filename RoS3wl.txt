@@ -1,0 +1,96 @@
+Player Zxv match record
+	Won against: ["Matt 1", "Tommoner", "YogoGogo", "Scrubs", "YogoGogo", "RJ"]
+	Lost against: ["RJ"]
+Player Star match record
+	Won against: []
+	Lost against: ["Tommoner", "Matt 1"]
+Player Scrubs match record
+	Won against: ["Donny", "Jon", "Gords", "Unreon"]
+	Lost against: ["Zero", "Zxv"]
+Player Sleggs match record
+	Won against: ["Donny", "William"]
+	Lost against: ["Jon", "Paulie"]
+Player Cunchy match record
+	Won against: ["Paulie", "RobTaylor"]
+	Lost against: ["Zero", "Jon"]
+Player Gords match record
+	Won against: ["Christian", "Shaya", "Tommoner"]
+	Lost against: ["YogoGogo", "Scrubs"]
+Player KTMFinx match record
+	Won against: ["RobTaylor"]
+	Lost against: ["Unreon", "Paulie"]
+Player Redmund match record
+	Won against: []
+	Lost against: ["William", "Josh"]
+Player William match record
+	Won against: ["Redmund"]
+	Lost against: ["Ted", "Sleggs"]
+Player Tommoner match record
+	Won against: ["Star", "EA"]
+	Lost against: ["Zxv", "Gords"]
+Player Ted match record
+	Won against: ["Josh", "William", "Unreon", "Zero", "RJ"]
+	Lost against: [nil]
+Player RJ match record
+	Won against: ["EA", "Matt2", "Cal", "Zxv"]
+	Lost against: ["Ted", "Zxv"]
+Player Ricky match record
+	Won against: ["Yam", "Christian", "Matt2"]
+	Lost against: ["Cal", "Unreon"]
+Player Paulie match record
+	Won against: ["Jay", "KTMFinx", "Sleggs"]
+	Lost against: ["Cunchy", "Cal"]
+Player Matt2 match record
+	Won against: ["Nivlac", "Matt 1"]
+	Lost against: ["RJ", "Ricky"]
+Player YogoGogo match record
+	Won against: ["Invisi", "Gords", "Jon", "Cal", "Zero"]
+	Lost against: ["Zxv", "Zxv"]
+Player Cal match record
+	Won against: ["Shaya", "Ricky", "Paulie"]
+	Lost against: ["RJ", "YogoGogo"]
+Player Plebastian Sooksalotti match record
+	Won against: []
+	Lost against: ["Unreon", "RobTaylor"]
+Player Jon match record
+	Won against: ["Sleggs", "Josh", "Cunchy"]
+	Lost against: ["Scrubs", "YogoGogo"]
+Player EA match record
+	Won against: ["Nivlac"]
+	Lost against: ["RJ", "Tommoner"]
+Player Christian match record
+	Won against: ["Invisi"]
+	Lost against: ["Gords", "Ricky"]
+Player Yam match record
+	Won against: []
+	Lost against: ["Ricky", "Shaya"]
+Player RobTaylor match record
+	Won against: ["Plebastian Sooksalotti"]
+	Lost against: ["KTMFinx", "Cunchy"]
+Player Invisi match record
+	Won against: []
+	Lost against: ["YogoGogo", "Christian"]
+Player Josh match record
+	Won against: ["Redmund"]
+	Lost against: ["Ted", "Jon"]
+Player Jay match record
+	Won against: []
+	Lost against: ["Zero", "Paulie"]
+Player Donny match record
+	Won against: []
+	Lost against: ["Scrubs", "Sleggs"]
+Player Nivlac match record
+	Won against: []
+	Lost against: ["Matt2", "EA"]
+Player Zero match record
+	Won against: ["Jay", "Cunchy", "Scrubs"]
+	Lost against: ["Ted", "YogoGogo"]
+Player Unreon match record
+	Won against: ["Plebastian Sooksalotti", "KTMFinx", "Ricky"]
+	Lost against: ["Ted", "Scrubs"]
+Player Matt 1 match record
+	Won against: ["Star"]
+	Lost against: ["Zxv", "Matt2"]
+Player Shaya match record
+	Won against: ["Yam"]
+	Lost against: ["Cal", "Gords"]
