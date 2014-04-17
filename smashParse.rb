@@ -6,14 +6,12 @@ tioFile = Nokogiri::XML(open('Brackets.tio'))
 #sets up the id to player nickname hash
 IDtoPlayer = {}
 tioFile.xpath("//Players/Player").each do |node|
-	#puts node.xpath("Nickname").text
-	#puts node.xpath("ID").text
-	#puts "======"
 	IDtoPlayer[node.xpath("ID").text] = node.xpath("Nickname").text
 	# Couldn't get the nokogiri node funtions working properly so i used the xpath, it sucks, i know
 end
 
-#gets win loss data, stores it in hash where ID => { wonAgainst => [], lostAgainst => [] }
+#gets win/loss data and converts the ID associated with the players involved and replaces
+#it with their nickname/alias i.e. someNumbers => 'AkiTheBakaQueen'
 winLoss = Hash.new({:wonAgainst => [], :lostAgainst => [] })
 tioFile.xpath("//Game").each do |node|
 	if node.xpath("Name").text == "Melee"
@@ -31,6 +29,7 @@ tioFile.xpath("//Game").each do |node|
 			winLoss[loser][:lostAgainst].push(winner)
 		end
 	end
+	#Outputs win/loss data in sorted order, it indents with tabs, deal with it
 	file = File.open("RoS3wl.txt", "w")
 	asdf = winLoss.sort_by {|key, val| val[:wonAgainst].length}.reverse
 	asdf = Hash[asdf.map {|key, value| [key, value]}]
