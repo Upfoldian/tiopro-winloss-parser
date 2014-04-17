@@ -4,6 +4,8 @@ tioFile = Nokogiri::XML(open('Brackets.tio'))
 
 
 #sets up the id to player nickname hash
+#Written by Thomas Upfold for the smash community
+
 IDtoPlayer = {}
 tioFile.xpath("//Players/Player").each do |node|
 	IDtoPlayer[node.xpath("ID").text] = node.xpath("Nickname").text
