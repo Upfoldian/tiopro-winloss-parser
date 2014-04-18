@@ -31,13 +31,13 @@ tioFile.xpath("//Game").each do |node|
 			winLoss[loser][:lostAgainst].push(winner)
 		end
 	end
-	#Outputs win/loss data in sorted order, it indents with tabs, deal with it
-	file = File.open("RoS3wl.txt", "w")
-	asdf = winLoss.sort_by {|key, val| val[:wonAgainst].length}.reverse
-	asdf = Hash[asdf.map {|key, value| [key, value]}]
-	asdf.each_key do |player| 
-		file.puts "Player " + player + " match record"
-		file.puts "\tWon against: " + winLoss[player][:wonAgainst].to_s
-		file.puts "\tLost against: " + winLoss[player][:lostAgainst].to_s
-	end
+end
+#Outputs win/loss data in sorted order, it indents with tabs, deal with it
+file = File.open("RoS3wl.txt", "w")
+asdf = winLoss.sort_by {|key, val| val[:wonAgainst].length}.reverse
+asdf = Hash[asdf.map {|key, value| [key, value]}]
+asdf.each_key do |player| 
+	file.puts "Player " + player + " match record"
+	file.puts "\tWon against: " + winLoss[player][:wonAgainst].to_s
+	file.puts "\tLost against: " + winLoss[player][:lostAgainst].to_s
 end
