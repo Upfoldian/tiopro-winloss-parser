@@ -13,7 +13,9 @@ menuLoop = true
 while (menuLoop)
 	begin
 		args = gets.chomp.split
-		commandToken = args.slice!(0)
+		commandToken = args[0]
+		args.shift
+		args = args.join(' ')[1..-2].split(/" "/)
 		if (commandToken == 'exit' || commandToken == 'quit') 
 			menuLoop = false
 		else

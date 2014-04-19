@@ -1,12 +1,12 @@
 class Commands
 	def self.assign(args)
-		#Usage assign player1 player2
+		#Usage assign "player1" "player2"
 		#Assigns one alias to another for discrepancies across tournaments
 		# => Should store these assignments so they don't need to be run each time
 		puts "assign"
 	end
 	def self.wins(args)
-		#Usage wins player1 player2 ... playerN
+		#Usage wins "player1" "player2" ... "playerN"
 		#Fetches the 'wonAgainst' array for target players
 		if $winLoss.size == 0
 			puts "Yo, there isn't any data yet. Add a bracket goofhead"
@@ -18,7 +18,7 @@ class Commands
 		end
 	end
 	def self.losses(args)
-		#Usage: losses player1 player2 ... playerN
+		#Usage: losses "player1" "player2" ... "playerN"
 		#fetches the 'lostAgainst' array for target players
 		if $winLoss.size == 0
 			puts "Yo, there isn't any data yet. Add a bracket goofhead"
@@ -33,7 +33,7 @@ class Commands
 		puts self.methods(false)[1..-1]
 	end
 	def self.addBracket(args)
-		#Usage addBracket filePath bracketName
+		#Usage addBracket "filePath" "bracketName"
 		puts args[0]
 		tioFile = Nokogiri::XML(open(args[0]))
 		tioFile.xpath("//Players/Player").each do |node|
@@ -61,6 +61,5 @@ class Commands
 				end
 			end
 		end
-		#puts $winLoss
 	end
 end
