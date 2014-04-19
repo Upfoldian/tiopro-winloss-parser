@@ -1,85 +1,121 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppData>
-	<Culture>en-US</Culture>
-	<Version>1.2.0</Version>
+	<Culture>
+	</Culture>
+	<Version>2.1.2.0</Version>
 	<EventList>
 		<Event>
 			<ID>c9ccb413-3ad4-4488-b03a-2798a971fa7b</ID>
 			<Name>RoS3</Name>
-			<StartDate>4/13/2014 12:00:00 AM</StartDate>
-			<Organizer>calxtom</Organizer>
+			<StartDate>04/13/2014 00:00:00</StartDate>
 			<Location>
 			</Location>
+			<Organizer>calxtom</Organizer>
 			<InProgress>False</InProgress>
 			<Games>
 				<Game>
-					<Name>Melee Doubles</Name>
 					<ID>6b094e6c-27a0-4746-b1f2-512fb11d8edf</ID>
-					<Date>4/13/2014 12:00:00 AM</Date>
+					<Name>Melee Doubles</Name>
+					<PreviousEventID>00000000-0000-0000-0000-000000000000</PreviousEventID>
+					<Date>04/13/2014 00:00:00</Date>
 					<BracketType>DoubleElim</BracketType>
 					<EntryFee>0</EntryFee>
 					<BasePotSize>0</BasePotSize>
 					<Entrants>
-						<PlayerID seed="2" AmountPaid="0">7a6a765e-8b9b-48db-b10c-2586281b933b</PlayerID>
-						<PlayerID seed="3" AmountPaid="0">79b91344-1176-456d-a707-dfc77c6d9ab2</PlayerID>
-						<PlayerID seed="1" AmountPaid="0">1f935d1d-6521-415a-a567-5906c594d83a</PlayerID>
-						<PlayerID seed="4" AmountPaid="0">868fd437-2e11-4354-a5cc-2b059f2d4c64</PlayerID>
-						<PlayerID seed="6" AmountPaid="0">f9db7ac4-0cc6-47b3-b984-945d9b980c2d</PlayerID>
-						<PlayerID seed="8" AmountPaid="0">ab145a4a-2f4e-47af-9167-ab47c5ed7b89</PlayerID>
-						<PlayerID seed="5" AmountPaid="0">5c397c81-c9e1-423e-908d-306f48bdb07f</PlayerID>
-						<PlayerID seed="0" AmountPaid="0">0711d212-6ec7-42a6-8502-028b70b76c63</PlayerID>
-						<PlayerID seed="7" AmountPaid="0">351d774a-44a1-4e36-95d2-6666d31c81f1</PlayerID>
+						<Entrant>
+							<PlayerID>7a6a765e-8b9b-48db-b10c-2586281b933b</PlayerID>
+							<Seed>2</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>79b91344-1176-456d-a707-dfc77c6d9ab2</PlayerID>
+							<Seed>3</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>1f935d1d-6521-415a-a567-5906c594d83a</PlayerID>
+							<Seed>1</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>868fd437-2e11-4354-a5cc-2b059f2d4c64</PlayerID>
+							<Seed>4</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</PlayerID>
+							<Seed>6</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</PlayerID>
+							<Seed>8</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>5c397c81-c9e1-423e-908d-306f48bdb07f</PlayerID>
+							<Seed>5</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>0711d212-6ec7-42a6-8502-028b70b76c63</PlayerID>
+							<Seed>0</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>351d774a-44a1-4e36-95d2-6666d31c81f1</PlayerID>
+							<Seed>7</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
 					</Entrants>
 					<GameType>Singles</GameType>
 					<HouseCut>0</HouseCut>
 					<HouseCutType>Percent</HouseCutType>
 					<Payouts removeabsolute="False">
-						<Payout placing="1" amount="70" type="Percentage" />
-						<Payout placing="2" amount="20" type="Percentage" />
-						<Payout placing="3" amount="10" type="Percentage" />
+						<Payout placing="1" amount="70" type="Percent" />
+						<Payout placing="2" amount="20" type="Percent" />
+						<Payout placing="3" amount="10" type="Percent" />
 					</Payouts>
 					<InProgress>False</InProgress>
 					<SeedType>Random</SeedType>
 					<SeparateByLocation>False</SeparateByLocation>
-					<Seeds>
-						<PlayerID>0711d212-6ec7-42a6-8502-028b70b76c63</PlayerID>
-						<PlayerID>1f935d1d-6521-415a-a567-5906c594d83a</PlayerID>
+					<Seeds name="Random">
 						<PlayerID>7a6a765e-8b9b-48db-b10c-2586281b933b</PlayerID>
 						<PlayerID>79b91344-1176-456d-a707-dfc77c6d9ab2</PlayerID>
+						<PlayerID>1f935d1d-6521-415a-a567-5906c594d83a</PlayerID>
 						<PlayerID>868fd437-2e11-4354-a5cc-2b059f2d4c64</PlayerID>
-						<PlayerID>5c397c81-c9e1-423e-908d-306f48bdb07f</PlayerID>
 						<PlayerID>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</PlayerID>
-						<PlayerID>351d774a-44a1-4e36-95d2-6666d31c81f1</PlayerID>
 						<PlayerID>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</PlayerID>
-						<PlayerID>00000001-0001-0001-0101-010101010101</PlayerID>
-						<PlayerID>00000001-0001-0001-0101-010101010101</PlayerID>
-						<PlayerID>00000001-0001-0001-0101-010101010101</PlayerID>
-						<PlayerID>00000001-0001-0001-0101-010101010101</PlayerID>
-						<PlayerID>00000001-0001-0001-0101-010101010101</PlayerID>
-						<PlayerID>00000001-0001-0001-0101-010101010101</PlayerID>
-						<PlayerID>00000001-0001-0001-0101-010101010101</PlayerID>
+						<PlayerID>5c397c81-c9e1-423e-908d-306f48bdb07f</PlayerID>
+						<PlayerID>0711d212-6ec7-42a6-8502-028b70b76c63</PlayerID>
+						<PlayerID>351d774a-44a1-4e36-95d2-6666d31c81f1</PlayerID>
 					</Seeds>
 					<GameName>melee</GameName>
 					<Metrics>
-						<BracketStart>1/1/0001 12:00:00 AM</BracketStart>
-						<BracketEnd>12/31/9999 11:59:59 PM</BracketEnd>
-						<OriginalEstimate>12/31/9999 11:59:59 PM</OriginalEstimate>
+						<BracketStart>01/01/0001 00:00:00</BracketStart>
+						<BracketEnd>12/31/9999 23:59:59</BracketEnd>
+						<OriginalEstimate>12/31/9999 23:59:59</OriginalEstimate>
 						<OriginalPhases>2147483647</OriginalPhases>
 						<Milestones />
 					</Metrics>
 					<Bracket>
 						<Size>16</Size>
-						<GamesPerMatch>3</GamesPerMatch>
-						<ChampionshipGames>5</ChampionshipGames>
+						<Ties />
 						<Matches>
 							<Match>
 								<Number>0</Number>
 								<Player1>79b91344-1176-456d-a707-dfc77c6d9ab2</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>79b91344-1176-456d-a707-dfc77c6d9ab2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>8</WinnerNextMatch>
 								<LoserNextMatch>16</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -92,7 +128,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -101,10 +136,7 @@
 								<Number>1</Number>
 								<Player1>351d774a-44a1-4e36-95d2-6666d31c81f1</Player1>
 								<Player2>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Player2>
-								<Games>3</Games>
 								<Winner>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>8</WinnerNextMatch>
 								<LoserNextMatch>16</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -117,7 +149,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -126,10 +157,7 @@
 								<Number>2</Number>
 								<Player1>1f935d1d-6521-415a-a567-5906c594d83a</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>1f935d1d-6521-415a-a567-5906c594d83a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>9</WinnerNextMatch>
 								<LoserNextMatch>17</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -142,7 +170,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -151,10 +178,7 @@
 								<Number>3</Number>
 								<Player1>868fd437-2e11-4354-a5cc-2b059f2d4c64</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>868fd437-2e11-4354-a5cc-2b059f2d4c64</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>9</WinnerNextMatch>
 								<LoserNextMatch>17</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -167,7 +191,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -176,10 +199,7 @@
 								<Number>4</Number>
 								<Player1>5c397c81-c9e1-423e-908d-306f48bdb07f</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>5c397c81-c9e1-423e-908d-306f48bdb07f</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>10</WinnerNextMatch>
 								<LoserNextMatch>18</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -192,7 +212,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -201,10 +220,7 @@
 								<Number>5</Number>
 								<Player1>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>10</WinnerNextMatch>
 								<LoserNextMatch>18</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -217,7 +233,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -226,10 +241,7 @@
 								<Number>6</Number>
 								<Player1>7a6a765e-8b9b-48db-b10c-2586281b933b</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>7a6a765e-8b9b-48db-b10c-2586281b933b</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>11</WinnerNextMatch>
 								<LoserNextMatch>19</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -242,7 +254,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -251,10 +262,7 @@
 								<Number>7</Number>
 								<Player1>0711d212-6ec7-42a6-8502-028b70b76c63</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>0711d212-6ec7-42a6-8502-028b70b76c63</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>11</WinnerNextMatch>
 								<LoserNextMatch>19</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -267,7 +275,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -276,10 +283,7 @@
 								<Number>8</Number>
 								<Player1>79b91344-1176-456d-a707-dfc77c6d9ab2</Player1>
 								<Player2>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Player2>
-								<Games>3</Games>
 								<Winner>79b91344-1176-456d-a707-dfc77c6d9ab2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>12</WinnerNextMatch>
 								<LoserNextMatch>22</LoserNextMatch>
 								<Player1PrevMatch>0</Player1PrevMatch>
@@ -291,7 +295,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> A</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -300,10 +303,7 @@
 								<Number>9</Number>
 								<Player1>1f935d1d-6521-415a-a567-5906c594d83a</Player1>
 								<Player2>868fd437-2e11-4354-a5cc-2b059f2d4c64</Player2>
-								<Games>3</Games>
 								<Winner>1f935d1d-6521-415a-a567-5906c594d83a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>12</WinnerNextMatch>
 								<LoserNextMatch>23</LoserNextMatch>
 								<Player1PrevMatch>2</Player1PrevMatch>
@@ -315,7 +315,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> B</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -324,10 +323,7 @@
 								<Number>10</Number>
 								<Player1>5c397c81-c9e1-423e-908d-306f48bdb07f</Player1>
 								<Player2>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</Player2>
-								<Games>3</Games>
 								<Winner>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>13</WinnerNextMatch>
 								<LoserNextMatch>20</LoserNextMatch>
 								<Player1PrevMatch>4</Player1PrevMatch>
@@ -339,7 +335,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> C</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -348,10 +343,7 @@
 								<Number>11</Number>
 								<Player1>7a6a765e-8b9b-48db-b10c-2586281b933b</Player1>
 								<Player2>0711d212-6ec7-42a6-8502-028b70b76c63</Player2>
-								<Games>3</Games>
 								<Winner>0711d212-6ec7-42a6-8502-028b70b76c63</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>13</WinnerNextMatch>
 								<LoserNextMatch>21</LoserNextMatch>
 								<Player1PrevMatch>6</Player1PrevMatch>
@@ -363,7 +355,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> D</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -372,10 +363,7 @@
 								<Number>12</Number>
 								<Player1>79b91344-1176-456d-a707-dfc77c6d9ab2</Player1>
 								<Player2>1f935d1d-6521-415a-a567-5906c594d83a</Player2>
-								<Games>3</Games>
 								<Winner>79b91344-1176-456d-a707-dfc77c6d9ab2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>14</WinnerNextMatch>
 								<LoserNextMatch>26</LoserNextMatch>
 								<Player1PrevMatch>8</Player1PrevMatch>
@@ -387,7 +375,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> E</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -396,10 +383,7 @@
 								<Number>13</Number>
 								<Player1>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</Player1>
 								<Player2>0711d212-6ec7-42a6-8502-028b70b76c63</Player2>
-								<Games>3</Games>
 								<Winner>0711d212-6ec7-42a6-8502-028b70b76c63</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>14</WinnerNextMatch>
 								<LoserNextMatch>27</LoserNextMatch>
 								<Player1PrevMatch>10</Player1PrevMatch>
@@ -411,7 +395,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> F</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -420,10 +403,7 @@
 								<Number>14</Number>
 								<Player1>79b91344-1176-456d-a707-dfc77c6d9ab2</Player1>
 								<Player2>0711d212-6ec7-42a6-8502-028b70b76c63</Player2>
-								<Games>3</Games>
 								<Winner>79b91344-1176-456d-a707-dfc77c6d9ab2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>15</WinnerNextMatch>
 								<LoserNextMatch>29</LoserNextMatch>
 								<Player1PrevMatch>12</Player1PrevMatch>
@@ -435,7 +415,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> G</Label>
 								<Round>4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -444,10 +423,7 @@
 								<Number>15</Number>
 								<Player1>79b91344-1176-456d-a707-dfc77c6d9ab2</Player1>
 								<Player2>0711d212-6ec7-42a6-8502-028b70b76c63</Player2>
-								<Games>5</Games>
 								<Winner>00000000-0000-0000-0000-000000000000</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>30</WinnerNextMatch>
 								<LoserNextMatch>30</LoserNextMatch>
 								<Player1PrevMatch>14</Player1PrevMatch>
@@ -459,7 +435,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> H</Label>
 								<Round>5</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -468,10 +443,7 @@
 								<Number>16</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>351d774a-44a1-4e36-95d2-6666d31c81f1</Player2>
-								<Games>3</Games>
 								<Winner>351d774a-44a1-4e36-95d2-6666d31c81f1</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>20</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>0</Player1PrevMatch>
@@ -484,7 +456,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -493,10 +464,7 @@
 								<Number>17</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>00000001-0001-0001-0101-010101010101</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>21</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>2</Player1PrevMatch>
@@ -509,7 +477,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -518,10 +485,7 @@
 								<Number>18</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>00000001-0001-0001-0101-010101010101</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>22</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>4</Player1PrevMatch>
@@ -534,7 +498,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -543,10 +506,7 @@
 								<Number>19</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>00000001-0001-0001-0101-010101010101</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>23</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>6</Player1PrevMatch>
@@ -559,7 +519,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -568,10 +527,7 @@
 								<Number>20</Number>
 								<Player1>351d774a-44a1-4e36-95d2-6666d31c81f1</Player1>
 								<Player2>5c397c81-c9e1-423e-908d-306f48bdb07f</Player2>
-								<Games>3</Games>
 								<Winner>5c397c81-c9e1-423e-908d-306f48bdb07f</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>24</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>16</Player1PrevMatch>
@@ -583,7 +539,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> C</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -592,10 +547,7 @@
 								<Number>21</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>7a6a765e-8b9b-48db-b10c-2586281b933b</Player2>
-								<Games>3</Games>
 								<Winner>7a6a765e-8b9b-48db-b10c-2586281b933b</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>24</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>17</Player1PrevMatch>
@@ -607,7 +559,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> D</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -616,10 +567,7 @@
 								<Number>22</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Player2>
-								<Games>3</Games>
 								<Winner>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>25</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>18</Player1PrevMatch>
@@ -631,7 +579,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> A</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -640,10 +587,7 @@
 								<Number>23</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>868fd437-2e11-4354-a5cc-2b059f2d4c64</Player2>
-								<Games>3</Games>
 								<Winner>868fd437-2e11-4354-a5cc-2b059f2d4c64</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>25</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>19</Player1PrevMatch>
@@ -655,7 +599,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> B</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -664,10 +607,7 @@
 								<Number>24</Number>
 								<Player1>5c397c81-c9e1-423e-908d-306f48bdb07f</Player1>
 								<Player2>7a6a765e-8b9b-48db-b10c-2586281b933b</Player2>
-								<Games>3</Games>
 								<Winner>7a6a765e-8b9b-48db-b10c-2586281b933b</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>26</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>20</Player1PrevMatch>
@@ -680,7 +620,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -689,10 +628,7 @@
 								<Number>25</Number>
 								<Player1>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Player1>
 								<Player2>868fd437-2e11-4354-a5cc-2b059f2d4c64</Player2>
-								<Games>3</Games>
 								<Winner>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>27</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>22</Player1PrevMatch>
@@ -705,7 +641,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -714,10 +649,7 @@
 								<Number>26</Number>
 								<Player1>7a6a765e-8b9b-48db-b10c-2586281b933b</Player1>
 								<Player2>1f935d1d-6521-415a-a567-5906c594d83a</Player2>
-								<Games>3</Games>
 								<Winner>1f935d1d-6521-415a-a567-5906c594d83a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>28</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>24</Player1PrevMatch>
@@ -729,7 +661,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> E</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -738,10 +669,7 @@
 								<Number>27</Number>
 								<Player1>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Player1>
 								<Player2>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</Player2>
-								<Games>3</Games>
 								<Winner>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>28</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>25</Player1PrevMatch>
@@ -753,7 +681,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> F</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -762,10 +689,7 @@
 								<Number>28</Number>
 								<Player1>1f935d1d-6521-415a-a567-5906c594d83a</Player1>
 								<Player2>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</Player2>
-								<Games>3</Games>
 								<Winner>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>29</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>26</Player1PrevMatch>
@@ -778,7 +702,6 @@
 								<Label>
 								</Label>
 								<Round>-5</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -787,10 +710,7 @@
 								<Number>29</Number>
 								<Player1>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</Player1>
 								<Player2>0711d212-6ec7-42a6-8502-028b70b76c63</Player2>
-								<Games>3</Games>
 								<Winner>0711d212-6ec7-42a6-8502-028b70b76c63</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>15</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>28</Player1PrevMatch>
@@ -802,7 +722,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> G</Label>
 								<Round>-6</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -811,10 +730,7 @@
 								<Number>30</Number>
 								<Player1>00000000-0000-0000-0000-000000000000</Player1>
 								<Player2>00000000-0000-0000-0000-000000000000</Player2>
-								<Games>5</Games>
 								<Winner>00000000-0000-0000-0000-000000000000</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>-1</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>15</Player1PrevMatch>
@@ -826,43 +742,78 @@
 								<IsSecondChampionship>True</IsSecondChampionship>
 								<Label> H</Label>
 								<Round>6</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
 							</Match>
 						</Matches>
-						<Ties />
+						<Scoring name="WinnerLoser" />
 					</Bracket>
 				</Game>
 				<Game>
-					<Name>Project M Doubles</Name>
 					<ID>cb14f216-7b9a-4c33-ba68-b43e9fef14a9</ID>
-					<Date>4/13/2014 12:00:00 AM</Date>
+					<Name>Project M Doubles</Name>
+					<PreviousEventID>00000000-0000-0000-0000-000000000000</PreviousEventID>
+					<Date>04/13/2014 00:00:00</Date>
 					<BracketType>DoubleElim</BracketType>
 					<EntryFee>0</EntryFee>
 					<BasePotSize>0</BasePotSize>
 					<Entrants>
-						<PlayerID seed="2" AmountPaid="0">b8e9b098-ed01-4880-b385-6db353131561</PlayerID>
-						<PlayerID seed="1" AmountPaid="0">e48f5e72-ef85-4eaa-99f3-c98bd562532a</PlayerID>
-						<PlayerID seed="4" AmountPaid="0">ab145a4a-2f4e-47af-9167-ab47c5ed7b89</PlayerID>
-						<PlayerID seed="3" AmountPaid="0">1f935d1d-6521-415a-a567-5906c594d83a</PlayerID>
-						<PlayerID seed="7" AmountPaid="0">868fd437-2e11-4354-a5cc-2b059f2d4c64</PlayerID>
-						<PlayerID seed="0" AmountPaid="0">939aabce-7814-4041-b4d0-023a491e9d65</PlayerID>
-						<PlayerID seed="5" AmountPaid="0">910c8f37-3741-43ff-9c86-a6be2b3c1f34</PlayerID>
+						<Entrant>
+							<PlayerID>b8e9b098-ed01-4880-b385-6db353131561</PlayerID>
+							<Seed>2</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>e48f5e72-ef85-4eaa-99f3-c98bd562532a</PlayerID>
+							<Seed>1</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</PlayerID>
+							<Seed>4</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>1f935d1d-6521-415a-a567-5906c594d83a</PlayerID>
+							<Seed>3</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>868fd437-2e11-4354-a5cc-2b059f2d4c64</PlayerID>
+							<Seed>7</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>939aabce-7814-4041-b4d0-023a491e9d65</PlayerID>
+							<Seed>0</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>910c8f37-3741-43ff-9c86-a6be2b3c1f34</PlayerID>
+							<Seed>5</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
 					</Entrants>
 					<GameType>Singles</GameType>
 					<HouseCut>0</HouseCut>
 					<HouseCutType>Percent</HouseCutType>
 					<Payouts removeabsolute="False">
-						<Payout placing="1" amount="70" type="Percentage" />
-						<Payout placing="2" amount="20" type="Percentage" />
-						<Payout placing="3" amount="10" type="Percentage" />
+						<Payout placing="1" amount="70" type="Percent" />
+						<Payout placing="2" amount="20" type="Percent" />
+						<Payout placing="3" amount="10" type="Percent" />
 					</Payouts>
 					<InProgress>False</InProgress>
 					<SeedType>Manual</SeedType>
 					<SeparateByLocation>False</SeparateByLocation>
-					<Seeds>
+					<Seeds name="Manual">
 						<Manual>
 							<PlayerID>939aabce-7814-4041-b4d0-023a491e9d65</PlayerID>
 							<PlayerID>e48f5e72-ef85-4eaa-99f3-c98bd562532a</PlayerID>
@@ -878,25 +829,21 @@
 					</Seeds>
 					<GameName>P:M</GameName>
 					<Metrics>
-						<BracketStart>1/1/0001 12:00:00 AM</BracketStart>
-						<BracketEnd>12/31/9999 11:59:59 PM</BracketEnd>
-						<OriginalEstimate>12/31/9999 11:59:59 PM</OriginalEstimate>
+						<BracketStart>01/01/0001 00:00:00</BracketStart>
+						<BracketEnd>12/31/9999 23:59:59</BracketEnd>
+						<OriginalEstimate>12/31/9999 23:59:59</OriginalEstimate>
 						<OriginalPhases>1</OriginalPhases>
 						<Milestones />
 					</Metrics>
 					<Bracket>
 						<Size>8</Size>
-						<GamesPerMatch>3</GamesPerMatch>
-						<ChampionshipGames>5</ChampionshipGames>
+						<Ties />
 						<Matches>
 							<Match>
 								<Number>0</Number>
 								<Player1>939aabce-7814-4041-b4d0-023a491e9d65</Player1>
 								<Player2>868fd437-2e11-4354-a5cc-2b059f2d4c64</Player2>
-								<Games>3</Games>
 								<Winner>939aabce-7814-4041-b4d0-023a491e9d65</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>4</WinnerNextMatch>
 								<LoserNextMatch>8</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -909,7 +856,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -918,10 +864,7 @@
 								<Number>1</Number>
 								<Player1>1f935d1d-6521-415a-a567-5906c594d83a</Player1>
 								<Player2>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Player2>
-								<Games>3</Games>
 								<Winner>1f935d1d-6521-415a-a567-5906c594d83a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>4</WinnerNextMatch>
 								<LoserNextMatch>8</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -934,7 +877,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -943,10 +885,7 @@
 								<Number>2</Number>
 								<Player1>e48f5e72-ef85-4eaa-99f3-c98bd562532a</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>e48f5e72-ef85-4eaa-99f3-c98bd562532a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>5</WinnerNextMatch>
 								<LoserNextMatch>9</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -959,7 +898,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -968,10 +906,7 @@
 								<Number>3</Number>
 								<Player1>b8e9b098-ed01-4880-b385-6db353131561</Player1>
 								<Player2>910c8f37-3741-43ff-9c86-a6be2b3c1f34</Player2>
-								<Games>3</Games>
 								<Winner>b8e9b098-ed01-4880-b385-6db353131561</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>5</WinnerNextMatch>
 								<LoserNextMatch>9</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -984,7 +919,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -993,10 +927,7 @@
 								<Number>4</Number>
 								<Player1>939aabce-7814-4041-b4d0-023a491e9d65</Player1>
 								<Player2>1f935d1d-6521-415a-a567-5906c594d83a</Player2>
-								<Games>3</Games>
 								<Winner>939aabce-7814-4041-b4d0-023a491e9d65</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>6</WinnerNextMatch>
 								<LoserNextMatch>11</LoserNextMatch>
 								<Player1PrevMatch>0</Player1PrevMatch>
@@ -1008,7 +939,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> A</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1017,10 +947,7 @@
 								<Number>5</Number>
 								<Player1>e48f5e72-ef85-4eaa-99f3-c98bd562532a</Player1>
 								<Player2>b8e9b098-ed01-4880-b385-6db353131561</Player2>
-								<Games>3</Games>
 								<Winner>b8e9b098-ed01-4880-b385-6db353131561</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>6</WinnerNextMatch>
 								<LoserNextMatch>10</LoserNextMatch>
 								<Player1PrevMatch>2</Player1PrevMatch>
@@ -1032,7 +959,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> B</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1041,10 +967,7 @@
 								<Number>6</Number>
 								<Player1>939aabce-7814-4041-b4d0-023a491e9d65</Player1>
 								<Player2>b8e9b098-ed01-4880-b385-6db353131561</Player2>
-								<Games>3</Games>
 								<Winner>939aabce-7814-4041-b4d0-023a491e9d65</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>7</WinnerNextMatch>
 								<LoserNextMatch>13</LoserNextMatch>
 								<Player1PrevMatch>4</Player1PrevMatch>
@@ -1056,7 +979,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> C</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1065,10 +987,7 @@
 								<Number>7</Number>
 								<Player1>939aabce-7814-4041-b4d0-023a491e9d65</Player1>
 								<Player2>e48f5e72-ef85-4eaa-99f3-c98bd562532a</Player2>
-								<Games>5</Games>
 								<Winner>939aabce-7814-4041-b4d0-023a491e9d65</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>14</WinnerNextMatch>
 								<LoserNextMatch>14</LoserNextMatch>
 								<Player1PrevMatch>6</Player1PrevMatch>
@@ -1080,7 +999,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> D</Label>
 								<Round>4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1089,10 +1007,7 @@
 								<Number>8</Number>
 								<Player1>868fd437-2e11-4354-a5cc-2b059f2d4c64</Player1>
 								<Player2>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Player2>
-								<Games>3</Games>
 								<Winner>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>10</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>0</Player1PrevMatch>
@@ -1105,7 +1020,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1114,10 +1028,7 @@
 								<Number>9</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>910c8f37-3741-43ff-9c86-a6be2b3c1f34</Player2>
-								<Games>3</Games>
 								<Winner>910c8f37-3741-43ff-9c86-a6be2b3c1f34</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>11</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>2</Player1PrevMatch>
@@ -1130,7 +1041,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1139,10 +1049,7 @@
 								<Number>10</Number>
 								<Player1>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</Player1>
 								<Player2>e48f5e72-ef85-4eaa-99f3-c98bd562532a</Player2>
-								<Games>3</Games>
 								<Winner>e48f5e72-ef85-4eaa-99f3-c98bd562532a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>12</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>8</Player1PrevMatch>
@@ -1154,7 +1061,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> B</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1163,10 +1069,7 @@
 								<Number>11</Number>
 								<Player1>910c8f37-3741-43ff-9c86-a6be2b3c1f34</Player1>
 								<Player2>1f935d1d-6521-415a-a567-5906c594d83a</Player2>
-								<Games>3</Games>
 								<Winner>1f935d1d-6521-415a-a567-5906c594d83a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>12</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>9</Player1PrevMatch>
@@ -1178,7 +1081,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> A</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1187,10 +1089,7 @@
 								<Number>12</Number>
 								<Player1>e48f5e72-ef85-4eaa-99f3-c98bd562532a</Player1>
 								<Player2>1f935d1d-6521-415a-a567-5906c594d83a</Player2>
-								<Games>3</Games>
 								<Winner>e48f5e72-ef85-4eaa-99f3-c98bd562532a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>13</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>10</Player1PrevMatch>
@@ -1203,7 +1102,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1212,10 +1110,7 @@
 								<Number>13</Number>
 								<Player1>e48f5e72-ef85-4eaa-99f3-c98bd562532a</Player1>
 								<Player2>b8e9b098-ed01-4880-b385-6db353131561</Player2>
-								<Games>3</Games>
 								<Winner>e48f5e72-ef85-4eaa-99f3-c98bd562532a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>7</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>12</Player1PrevMatch>
@@ -1227,7 +1122,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> C</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1236,10 +1130,7 @@
 								<Number>14</Number>
 								<Player1>00000000-0000-0000-0000-000000000000</Player1>
 								<Player2>00000000-0000-0000-0000-000000000000</Player2>
-								<Games>5</Games>
 								<Winner>00000000-0000-0000-0000-000000000000</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>-1</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>7</Player1PrevMatch>
@@ -1251,68 +1142,228 @@
 								<IsSecondChampionship>True</IsSecondChampionship>
 								<Label> D</Label>
 								<Round>5</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
 							</Match>
 						</Matches>
-						<Ties />
+						<Scoring name="WinnerLoser" />
 					</Bracket>
 				</Game>
 				<Game>
-					<Name>Melee</Name>
 					<ID>ac1d491b-0c79-4502-bef5-5abfe674398b</ID>
-					<Date>4/13/2014 12:00:00 AM</Date>
+					<Name>Melee</Name>
+					<PreviousEventID>00000000-0000-0000-0000-000000000000</PreviousEventID>
+					<Date>04/13/2014 00:00:00</Date>
 					<BracketType>DoubleElim</BracketType>
 					<EntryFee>0</EntryFee>
 					<BasePotSize>0</BasePotSize>
 					<Entrants>
-						<PlayerID seed="1" AmountPaid="0">970ab7d5-82a7-4fc8-bb8e-d805a8fae079</PlayerID>
-						<PlayerID seed="17" AmountPaid="0">d3b73304-c220-49b0-95eb-a10b243c20e8</PlayerID>
-						<PlayerID seed="3" AmountPaid="0">0b3b78fc-2422-44d4-897c-3241dd851ef6</PlayerID>
-						<PlayerID seed="12" AmountPaid="0">4eca6b46-295d-49f8-a691-94a75b6e56c8</PlayerID>
-						<PlayerID seed="20" AmountPaid="0">346a1a08-78bc-49fa-b808-91488969377e</PlayerID>
-						<PlayerID seed="9" AmountPaid="0">73575c5c-8f17-4337-8786-b10753ef21af</PlayerID>
-						<PlayerID seed="24" AmountPaid="0">ef234556-d17d-4456-9acf-82d78202d900</PlayerID>
-						<PlayerID seed="16" AmountPaid="0">3eb6aef9-2325-4def-9c4c-78b4c16382aa</PlayerID>
-						<PlayerID seed="15" AmountPaid="0">938c7d39-6bd1-4dfc-9127-ba91725f021c</PlayerID>
-						<PlayerID seed="25" AmountPaid="0">28a87a1d-b502-4efc-aa5f-2c0955a67d1e</PlayerID>
-						<PlayerID seed="0" AmountPaid="0">0c34e59c-2390-44ac-a5da-b0a6da5b901a</PlayerID>
-						<PlayerID seed="2" AmountPaid="0">b58c337f-4ca1-4862-956b-c6b9671ff4d9</PlayerID>
-						<PlayerID seed="10" AmountPaid="0">c5ed49cc-476c-41a8-858a-3aacbccb05e4</PlayerID>
-						<PlayerID seed="11" AmountPaid="0">24c122a6-da5f-4649-9acb-4bc3191befd2</PlayerID>
-						<PlayerID seed="18" AmountPaid="0">85b7f818-9969-45f8-9e60-7a9a72cfdf03</PlayerID>
-						<PlayerID seed="6" AmountPaid="0">ecf87cc4-6328-47ab-86ca-0713afbb8c02</PlayerID>
-						<PlayerID seed="5" AmountPaid="0">dd75e454-1d0f-470f-85a4-3465ba21c546</PlayerID>
-						<PlayerID seed="8" AmountPaid="0">323a6cbd-44d0-494a-9882-cd66ddf67d13</PlayerID>
-						<PlayerID seed="19" AmountPaid="0">5c83f710-456d-4ef2-9d23-ef66b28add8e</PlayerID>
-						<PlayerID seed="23" AmountPaid="0">034bf06d-f280-48cf-a782-799630b26c0c</PlayerID>
-						<PlayerID seed="22" AmountPaid="0">97687803-445c-4613-aaa6-6c76b0ba80de</PlayerID>
-						<PlayerID seed="21" AmountPaid="0">d1219c16-1db5-4591-85d2-5111929b3e63</PlayerID>
-						<PlayerID seed="7" AmountPaid="0">2898aeaf-6066-489b-b499-c54d75638251</PlayerID>
-						<PlayerID seed="14" AmountPaid="0">ab8080e1-fd94-4300-8447-9994bd51fc34</PlayerID>
-						<PlayerID seed="26" AmountPaid="0">30fd3dbc-e03b-484e-adf8-21f1c445d59e</PlayerID>
-						<PlayerID seed="27" AmountPaid="0">4187da71-e70c-4056-b98f-af8e14a87a9d</PlayerID>
-						<PlayerID seed="28" AmountPaid="0">156cb70c-47b3-4c94-9dfe-4f4ad52fba8c</PlayerID>
-						<PlayerID seed="13" AmountPaid="0">368a6e23-8570-4424-9636-1792031bef25</PlayerID>
-						<PlayerID seed="4" AmountPaid="0">7c4e94c1-ac56-4b55-96e6-8f92682c9b96</PlayerID>
-						<PlayerID seed="2" AmountPaid="0">ea72f90f-a6a4-4350-9b36-f8a23dff3afc</PlayerID>
-						<PlayerID seed="1" AmountPaid="0">4132bc73-ddbd-435d-a1f6-bad5967f9a57</PlayerID>
-						<PlayerID seed="0" AmountPaid="0">58affe9a-3c65-49ce-bb4f-3c193bdb4410</PlayerID>
+						<Entrant>
+							<PlayerID>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</PlayerID>
+							<Seed>1</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>d3b73304-c220-49b0-95eb-a10b243c20e8</PlayerID>
+							<Seed>17</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>0b3b78fc-2422-44d4-897c-3241dd851ef6</PlayerID>
+							<Seed>3</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>4eca6b46-295d-49f8-a691-94a75b6e56c8</PlayerID>
+							<Seed>12</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>346a1a08-78bc-49fa-b808-91488969377e</PlayerID>
+							<Seed>20</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>73575c5c-8f17-4337-8786-b10753ef21af</PlayerID>
+							<Seed>9</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>ef234556-d17d-4456-9acf-82d78202d900</PlayerID>
+							<Seed>24</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>3eb6aef9-2325-4def-9c4c-78b4c16382aa</PlayerID>
+							<Seed>16</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>938c7d39-6bd1-4dfc-9127-ba91725f021c</PlayerID>
+							<Seed>15</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</PlayerID>
+							<Seed>25</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>0c34e59c-2390-44ac-a5da-b0a6da5b901a</PlayerID>
+							<Seed>0</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>b58c337f-4ca1-4862-956b-c6b9671ff4d9</PlayerID>
+							<Seed>2</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>c5ed49cc-476c-41a8-858a-3aacbccb05e4</PlayerID>
+							<Seed>10</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>24c122a6-da5f-4649-9acb-4bc3191befd2</PlayerID>
+							<Seed>11</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>85b7f818-9969-45f8-9e60-7a9a72cfdf03</PlayerID>
+							<Seed>18</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>ecf87cc4-6328-47ab-86ca-0713afbb8c02</PlayerID>
+							<Seed>6</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>dd75e454-1d0f-470f-85a4-3465ba21c546</PlayerID>
+							<Seed>5</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>323a6cbd-44d0-494a-9882-cd66ddf67d13</PlayerID>
+							<Seed>8</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>5c83f710-456d-4ef2-9d23-ef66b28add8e</PlayerID>
+							<Seed>19</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>034bf06d-f280-48cf-a782-799630b26c0c</PlayerID>
+							<Seed>23</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>97687803-445c-4613-aaa6-6c76b0ba80de</PlayerID>
+							<Seed>22</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>d1219c16-1db5-4591-85d2-5111929b3e63</PlayerID>
+							<Seed>21</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>2898aeaf-6066-489b-b499-c54d75638251</PlayerID>
+							<Seed>7</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>ab8080e1-fd94-4300-8447-9994bd51fc34</PlayerID>
+							<Seed>14</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>30fd3dbc-e03b-484e-adf8-21f1c445d59e</PlayerID>
+							<Seed>26</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>4187da71-e70c-4056-b98f-af8e14a87a9d</PlayerID>
+							<Seed>27</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>156cb70c-47b3-4c94-9dfe-4f4ad52fba8c</PlayerID>
+							<Seed>28</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>368a6e23-8570-4424-9636-1792031bef25</PlayerID>
+							<Seed>13</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</PlayerID>
+							<Seed>4</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>ea72f90f-a6a4-4350-9b36-f8a23dff3afc</PlayerID>
+							<Seed>2</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>4132bc73-ddbd-435d-a1f6-bad5967f9a57</PlayerID>
+							<Seed>1</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>58affe9a-3c65-49ce-bb4f-3c193bdb4410</PlayerID>
+							<Seed>0</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
 					</Entrants>
 					<GameType>Singles</GameType>
 					<HouseCut>0</HouseCut>
 					<HouseCutType>Percent</HouseCutType>
 					<Payouts removeabsolute="False">
-						<Payout placing="1" amount="70" type="Percentage" />
-						<Payout placing="2" amount="20" type="Percentage" />
-						<Payout placing="3" amount="10" type="Percentage" />
+						<Payout placing="1" amount="70" type="Percent" />
+						<Payout placing="2" amount="20" type="Percent" />
+						<Payout placing="3" amount="10" type="Percent" />
 					</Payouts>
 					<InProgress>False</InProgress>
 					<SeedType>Manual</SeedType>
 					<SeparateByLocation>False</SeparateByLocation>
-					<Seeds>
+					<Seeds name="Manual">
 						<Manual>
 							<PlayerID>0c34e59c-2390-44ac-a5da-b0a6da5b901a</PlayerID>
 							<PlayerID>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</PlayerID>
@@ -1355,25 +1406,21 @@
 					</Seeds>
 					<GameName>Melee</GameName>
 					<Metrics>
-						<BracketStart>1/1/0001 12:00:00 AM</BracketStart>
-						<BracketEnd>12/31/9999 11:59:59 PM</BracketEnd>
-						<OriginalEstimate>12/31/9999 11:59:59 PM</OriginalEstimate>
+						<BracketStart>01/01/0001 00:00:00</BracketStart>
+						<BracketEnd>12/31/9999 23:59:59</BracketEnd>
+						<OriginalEstimate>12/31/9999 23:59:59</OriginalEstimate>
 						<OriginalPhases>1</OriginalPhases>
 						<Milestones />
 					</Metrics>
 					<Bracket>
 						<Size>32</Size>
-						<GamesPerMatch>3</GamesPerMatch>
-						<ChampionshipGames>5</ChampionshipGames>
+						<Ties />
 						<Matches>
 							<Match>
 								<Number>0</Number>
 								<Player1>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Player1>
 								<Player2>30fd3dbc-e03b-484e-adf8-21f1c445d59e</Player2>
-								<Games>3</Games>
 								<Winner>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>16</WinnerNextMatch>
 								<LoserNextMatch>32</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1386,7 +1433,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1395,10 +1441,7 @@
 								<Number>1</Number>
 								<Player1>938c7d39-6bd1-4dfc-9127-ba91725f021c</Player1>
 								<Player2>3eb6aef9-2325-4def-9c4c-78b4c16382aa</Player2>
-								<Games>3</Games>
 								<Winner>938c7d39-6bd1-4dfc-9127-ba91725f021c</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>16</WinnerNextMatch>
 								<LoserNextMatch>32</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1411,7 +1454,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1420,10 +1462,7 @@
 								<Number>2</Number>
 								<Player1>2898aeaf-6066-489b-b499-c54d75638251</Player1>
 								<Player2>ef234556-d17d-4456-9acf-82d78202d900</Player2>
-								<Games>3</Games>
 								<Winner>ef234556-d17d-4456-9acf-82d78202d900</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>17</WinnerNextMatch>
 								<LoserNextMatch>33</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1436,7 +1475,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1445,10 +1483,7 @@
 								<Number>3</Number>
 								<Player1>323a6cbd-44d0-494a-9882-cd66ddf67d13</Player1>
 								<Player2>ea72f90f-a6a4-4350-9b36-f8a23dff3afc</Player2>
-								<Games>3</Games>
 								<Winner>ea72f90f-a6a4-4350-9b36-f8a23dff3afc</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>17</WinnerNextMatch>
 								<LoserNextMatch>33</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1461,7 +1496,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1470,10 +1504,7 @@
 								<Number>4</Number>
 								<Player1>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player1>
 								<Player2>156cb70c-47b3-4c94-9dfe-4f4ad52fba8c</Player2>
-								<Games>3</Games>
 								<Winner>0b3b78fc-2422-44d4-897c-3241dd851ef6</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>18</WinnerNextMatch>
 								<LoserNextMatch>34</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1486,7 +1517,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1495,10 +1525,7 @@
 								<Number>5</Number>
 								<Player1>4eca6b46-295d-49f8-a691-94a75b6e56c8</Player1>
 								<Player2>5c83f710-456d-4ef2-9d23-ef66b28add8e</Player2>
-								<Games>3</Games>
 								<Winner>5c83f710-456d-4ef2-9d23-ef66b28add8e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>18</WinnerNextMatch>
 								<LoserNextMatch>34</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1511,7 +1538,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1520,10 +1546,7 @@
 								<Number>6</Number>
 								<Player1>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Player1>
 								<Player2>4187da71-e70c-4056-b98f-af8e14a87a9d</Player2>
-								<Games>3</Games>
 								<Winner>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>19</WinnerNextMatch>
 								<LoserNextMatch>35</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1536,7 +1559,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1545,10 +1567,7 @@
 								<Number>7</Number>
 								<Player1>24c122a6-da5f-4649-9acb-4bc3191befd2</Player1>
 								<Player2>346a1a08-78bc-49fa-b808-91488969377e</Player2>
-								<Games>3</Games>
 								<Winner>346a1a08-78bc-49fa-b808-91488969377e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>19</WinnerNextMatch>
 								<LoserNextMatch>35</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1561,7 +1580,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1570,10 +1588,7 @@
 								<Number>8</Number>
 								<Player1>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player1>
 								<Player2>4132bc73-ddbd-435d-a1f6-bad5967f9a57</Player2>
-								<Games>3</Games>
 								<Winner>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>20</WinnerNextMatch>
 								<LoserNextMatch>36</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1586,7 +1601,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1595,10 +1609,7 @@
 								<Number>9</Number>
 								<Player1>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Player1>
 								<Player2>d3b73304-c220-49b0-95eb-a10b243c20e8</Player2>
-								<Games>3</Games>
 								<Winner>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>20</WinnerNextMatch>
 								<LoserNextMatch>36</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1611,7 +1622,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1620,10 +1630,7 @@
 								<Number>10</Number>
 								<Player1>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player1>
 								<Player2>ab8080e1-fd94-4300-8447-9994bd51fc34</Player2>
-								<Games>3</Games>
 								<Winner>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>21</WinnerNextMatch>
 								<LoserNextMatch>37</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1636,7 +1643,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1645,10 +1651,7 @@
 								<Number>11</Number>
 								<Player1>73575c5c-8f17-4337-8786-b10753ef21af</Player1>
 								<Player2>97687803-445c-4613-aaa6-6c76b0ba80de</Player2>
-								<Games>3</Games>
 								<Winner>73575c5c-8f17-4337-8786-b10753ef21af</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>21</WinnerNextMatch>
 								<LoserNextMatch>37</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1661,7 +1664,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1670,10 +1672,7 @@
 								<Number>12</Number>
 								<Player1>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player1>
 								<Player2>034bf06d-f280-48cf-a782-799630b26c0c</Player2>
-								<Games>3</Games>
 								<Winner>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>22</WinnerNextMatch>
 								<LoserNextMatch>38</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1686,7 +1685,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1695,10 +1693,7 @@
 								<Number>13</Number>
 								<Player1>368a6e23-8570-4424-9636-1792031bef25</Player1>
 								<Player2>85b7f818-9969-45f8-9e60-7a9a72cfdf03</Player2>
-								<Games>3</Games>
 								<Winner>85b7f818-9969-45f8-9e60-7a9a72cfdf03</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>22</WinnerNextMatch>
 								<LoserNextMatch>38</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1711,7 +1706,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1720,10 +1714,7 @@
 								<Number>14</Number>
 								<Player1>58affe9a-3c65-49ce-bb4f-3c193bdb4410</Player1>
 								<Player2>dd75e454-1d0f-470f-85a4-3465ba21c546</Player2>
-								<Games>3</Games>
 								<Winner>dd75e454-1d0f-470f-85a4-3465ba21c546</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>23</WinnerNextMatch>
 								<LoserNextMatch>39</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1736,7 +1727,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1745,10 +1735,7 @@
 								<Number>15</Number>
 								<Player1>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Player1>
 								<Player2>d1219c16-1db5-4591-85d2-5111929b3e63</Player2>
-								<Games>3</Games>
 								<Winner>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>23</WinnerNextMatch>
 								<LoserNextMatch>39</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -1761,7 +1748,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1770,10 +1756,7 @@
 								<Number>16</Number>
 								<Player1>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Player1>
 								<Player2>938c7d39-6bd1-4dfc-9127-ba91725f021c</Player2>
-								<Games>3</Games>
 								<Winner>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>24</WinnerNextMatch>
 								<LoserNextMatch>42</LoserNextMatch>
 								<Player1PrevMatch>0</Player1PrevMatch>
@@ -1785,7 +1768,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> A</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1794,10 +1776,7 @@
 								<Number>17</Number>
 								<Player1>ef234556-d17d-4456-9acf-82d78202d900</Player1>
 								<Player2>ea72f90f-a6a4-4350-9b36-f8a23dff3afc</Player2>
-								<Games>3</Games>
 								<Winner>ea72f90f-a6a4-4350-9b36-f8a23dff3afc</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>24</WinnerNextMatch>
 								<LoserNextMatch>43</LoserNextMatch>
 								<Player1PrevMatch>2</Player1PrevMatch>
@@ -1809,7 +1788,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> B</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1818,10 +1796,7 @@
 								<Number>18</Number>
 								<Player1>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player1>
 								<Player2>5c83f710-456d-4ef2-9d23-ef66b28add8e</Player2>
-								<Games>3</Games>
 								<Winner>0b3b78fc-2422-44d4-897c-3241dd851ef6</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>25</WinnerNextMatch>
 								<LoserNextMatch>40</LoserNextMatch>
 								<Player1PrevMatch>4</Player1PrevMatch>
@@ -1833,7 +1808,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> C</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1842,10 +1816,7 @@
 								<Number>19</Number>
 								<Player1>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Player1>
 								<Player2>346a1a08-78bc-49fa-b808-91488969377e</Player2>
-								<Games>3</Games>
 								<Winner>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>25</WinnerNextMatch>
 								<LoserNextMatch>41</LoserNextMatch>
 								<Player1PrevMatch>6</Player1PrevMatch>
@@ -1857,7 +1828,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> D</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1866,10 +1836,7 @@
 								<Number>20</Number>
 								<Player1>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player1>
 								<Player2>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Player2>
-								<Games>3</Games>
 								<Winner>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>26</WinnerNextMatch>
 								<LoserNextMatch>46</LoserNextMatch>
 								<Player1PrevMatch>8</Player1PrevMatch>
@@ -1881,7 +1848,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> E</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1890,10 +1856,7 @@
 								<Number>21</Number>
 								<Player1>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player1>
 								<Player2>73575c5c-8f17-4337-8786-b10753ef21af</Player2>
-								<Games>3</Games>
 								<Winner>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>26</WinnerNextMatch>
 								<LoserNextMatch>47</LoserNextMatch>
 								<Player1PrevMatch>10</Player1PrevMatch>
@@ -1905,7 +1868,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> F</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1914,10 +1876,7 @@
 								<Number>22</Number>
 								<Player1>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player1>
 								<Player2>85b7f818-9969-45f8-9e60-7a9a72cfdf03</Player2>
-								<Games>3</Games>
 								<Winner>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>27</WinnerNextMatch>
 								<LoserNextMatch>44</LoserNextMatch>
 								<Player1PrevMatch>12</Player1PrevMatch>
@@ -1929,7 +1888,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> G</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1938,10 +1896,7 @@
 								<Number>23</Number>
 								<Player1>dd75e454-1d0f-470f-85a4-3465ba21c546</Player1>
 								<Player2>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Player2>
-								<Games>3</Games>
 								<Winner>dd75e454-1d0f-470f-85a4-3465ba21c546</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>27</WinnerNextMatch>
 								<LoserNextMatch>45</LoserNextMatch>
 								<Player1PrevMatch>14</Player1PrevMatch>
@@ -1953,7 +1908,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> H</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1962,10 +1916,7 @@
 								<Number>24</Number>
 								<Player1>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Player1>
 								<Player2>ea72f90f-a6a4-4350-9b36-f8a23dff3afc</Player2>
-								<Games>3</Games>
 								<Winner>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>28</WinnerNextMatch>
 								<LoserNextMatch>54</LoserNextMatch>
 								<Player1PrevMatch>16</Player1PrevMatch>
@@ -1977,7 +1928,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> I</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -1986,10 +1936,7 @@
 								<Number>25</Number>
 								<Player1>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player1>
 								<Player2>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Player2>
-								<Games>3</Games>
 								<Winner>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>28</WinnerNextMatch>
 								<LoserNextMatch>55</LoserNextMatch>
 								<Player1PrevMatch>18</Player1PrevMatch>
@@ -2001,7 +1948,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> J</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2010,10 +1956,7 @@
 								<Number>26</Number>
 								<Player1>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player1>
 								<Player2>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player2>
-								<Games>3</Games>
 								<Winner>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>29</WinnerNextMatch>
 								<LoserNextMatch>52</LoserNextMatch>
 								<Player1PrevMatch>20</Player1PrevMatch>
@@ -2025,7 +1968,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> K</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2034,10 +1976,7 @@
 								<Number>27</Number>
 								<Player1>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player1>
 								<Player2>dd75e454-1d0f-470f-85a4-3465ba21c546</Player2>
-								<Games>3</Games>
 								<Winner>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>29</WinnerNextMatch>
 								<LoserNextMatch>53</LoserNextMatch>
 								<Player1PrevMatch>22</Player1PrevMatch>
@@ -2049,7 +1988,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> L</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2058,10 +1996,7 @@
 								<Number>28</Number>
 								<Player1>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Player1>
 								<Player2>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Player2>
-								<Games>3</Games>
 								<Winner>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>30</WinnerNextMatch>
 								<LoserNextMatch>58</LoserNextMatch>
 								<Player1PrevMatch>24</Player1PrevMatch>
@@ -2073,7 +2008,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> M</Label>
 								<Round>4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2082,10 +2016,7 @@
 								<Number>29</Number>
 								<Player1>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player1>
 								<Player2>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player2>
-								<Games>3</Games>
 								<Winner>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>30</WinnerNextMatch>
 								<LoserNextMatch>59</LoserNextMatch>
 								<Player1PrevMatch>26</Player1PrevMatch>
@@ -2097,7 +2028,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> N</Label>
 								<Round>4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2106,10 +2036,7 @@
 								<Number>30</Number>
 								<Player1>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Player1>
 								<Player2>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player2>
-								<Games>3</Games>
 								<Winner>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>31</WinnerNextMatch>
 								<LoserNextMatch>61</LoserNextMatch>
 								<Player1PrevMatch>28</Player1PrevMatch>
@@ -2121,7 +2048,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> O</Label>
 								<Round>5</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2130,10 +2056,7 @@
 								<Number>31</Number>
 								<Player1>0c34e59c-2390-44ac-a5da-b0a6da5b901a</Player1>
 								<Player2>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player2>
-								<Games>5</Games>
 								<Winner>00000000-0000-0000-0000-000000000000</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>62</WinnerNextMatch>
 								<LoserNextMatch>62</LoserNextMatch>
 								<Player1PrevMatch>30</Player1PrevMatch>
@@ -2145,7 +2068,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> P</Label>
 								<Round>6</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2154,10 +2076,7 @@
 								<Number>32</Number>
 								<Player1>30fd3dbc-e03b-484e-adf8-21f1c445d59e</Player1>
 								<Player2>3eb6aef9-2325-4def-9c4c-78b4c16382aa</Player2>
-								<Games>3</Games>
 								<Winner>30fd3dbc-e03b-484e-adf8-21f1c445d59e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>40</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>0</Player1PrevMatch>
@@ -2170,7 +2089,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2179,10 +2097,7 @@
 								<Number>33</Number>
 								<Player1>2898aeaf-6066-489b-b499-c54d75638251</Player1>
 								<Player2>323a6cbd-44d0-494a-9882-cd66ddf67d13</Player2>
-								<Games>3</Games>
 								<Winner>2898aeaf-6066-489b-b499-c54d75638251</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>41</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>2</Player1PrevMatch>
@@ -2195,7 +2110,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2204,10 +2118,7 @@
 								<Number>34</Number>
 								<Player1>156cb70c-47b3-4c94-9dfe-4f4ad52fba8c</Player1>
 								<Player2>4eca6b46-295d-49f8-a691-94a75b6e56c8</Player2>
-								<Games>3</Games>
 								<Winner>4eca6b46-295d-49f8-a691-94a75b6e56c8</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>42</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>4</Player1PrevMatch>
@@ -2220,7 +2131,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2229,10 +2139,7 @@
 								<Number>35</Number>
 								<Player1>4187da71-e70c-4056-b98f-af8e14a87a9d</Player1>
 								<Player2>24c122a6-da5f-4649-9acb-4bc3191befd2</Player2>
-								<Games>3</Games>
 								<Winner>24c122a6-da5f-4649-9acb-4bc3191befd2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>43</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>6</Player1PrevMatch>
@@ -2245,7 +2152,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2254,10 +2160,7 @@
 								<Number>36</Number>
 								<Player1>4132bc73-ddbd-435d-a1f6-bad5967f9a57</Player1>
 								<Player2>d3b73304-c220-49b0-95eb-a10b243c20e8</Player2>
-								<Games>3</Games>
 								<Winner>4132bc73-ddbd-435d-a1f6-bad5967f9a57</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>44</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>8</Player1PrevMatch>
@@ -2270,7 +2173,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2279,10 +2181,7 @@
 								<Number>37</Number>
 								<Player1>ab8080e1-fd94-4300-8447-9994bd51fc34</Player1>
 								<Player2>97687803-445c-4613-aaa6-6c76b0ba80de</Player2>
-								<Games>3</Games>
 								<Winner>97687803-445c-4613-aaa6-6c76b0ba80de</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>45</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>10</Player1PrevMatch>
@@ -2295,7 +2194,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2304,10 +2202,7 @@
 								<Number>38</Number>
 								<Player1>034bf06d-f280-48cf-a782-799630b26c0c</Player1>
 								<Player2>368a6e23-8570-4424-9636-1792031bef25</Player2>
-								<Games>3</Games>
 								<Winner>034bf06d-f280-48cf-a782-799630b26c0c</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>46</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>12</Player1PrevMatch>
@@ -2320,7 +2215,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2329,10 +2223,7 @@
 								<Number>39</Number>
 								<Player1>58affe9a-3c65-49ce-bb4f-3c193bdb4410</Player1>
 								<Player2>d1219c16-1db5-4591-85d2-5111929b3e63</Player2>
-								<Games>3</Games>
 								<Winner>58affe9a-3c65-49ce-bb4f-3c193bdb4410</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>47</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>14</Player1PrevMatch>
@@ -2345,7 +2236,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2354,10 +2244,7 @@
 								<Number>40</Number>
 								<Player1>30fd3dbc-e03b-484e-adf8-21f1c445d59e</Player1>
 								<Player2>5c83f710-456d-4ef2-9d23-ef66b28add8e</Player2>
-								<Games>3</Games>
 								<Winner>5c83f710-456d-4ef2-9d23-ef66b28add8e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>48</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>32</Player1PrevMatch>
@@ -2369,7 +2256,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> C</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2378,10 +2264,7 @@
 								<Number>41</Number>
 								<Player1>2898aeaf-6066-489b-b499-c54d75638251</Player1>
 								<Player2>346a1a08-78bc-49fa-b808-91488969377e</Player2>
-								<Games>3</Games>
 								<Winner>346a1a08-78bc-49fa-b808-91488969377e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>48</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>33</Player1PrevMatch>
@@ -2393,7 +2276,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> D</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2402,10 +2284,7 @@
 								<Number>42</Number>
 								<Player1>4eca6b46-295d-49f8-a691-94a75b6e56c8</Player1>
 								<Player2>938c7d39-6bd1-4dfc-9127-ba91725f021c</Player2>
-								<Games>3</Games>
 								<Winner>4eca6b46-295d-49f8-a691-94a75b6e56c8</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>49</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>34</Player1PrevMatch>
@@ -2417,7 +2296,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> A</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2426,10 +2304,7 @@
 								<Number>43</Number>
 								<Player1>24c122a6-da5f-4649-9acb-4bc3191befd2</Player1>
 								<Player2>ef234556-d17d-4456-9acf-82d78202d900</Player2>
-								<Games>3</Games>
 								<Winner>24c122a6-da5f-4649-9acb-4bc3191befd2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>49</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>35</Player1PrevMatch>
@@ -2441,7 +2316,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> B</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2450,10 +2324,7 @@
 								<Number>44</Number>
 								<Player1>4132bc73-ddbd-435d-a1f6-bad5967f9a57</Player1>
 								<Player2>85b7f818-9969-45f8-9e60-7a9a72cfdf03</Player2>
-								<Games>3</Games>
 								<Winner>85b7f818-9969-45f8-9e60-7a9a72cfdf03</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>50</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>36</Player1PrevMatch>
@@ -2465,7 +2336,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> G</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2474,10 +2344,7 @@
 								<Number>45</Number>
 								<Player1>97687803-445c-4613-aaa6-6c76b0ba80de</Player1>
 								<Player2>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Player2>
-								<Games>3</Games>
 								<Winner>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>50</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>37</Player1PrevMatch>
@@ -2489,7 +2356,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> H</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2498,10 +2364,7 @@
 								<Number>46</Number>
 								<Player1>034bf06d-f280-48cf-a782-799630b26c0c</Player1>
 								<Player2>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Player2>
-								<Games>3</Games>
 								<Winner>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>51</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>38</Player1PrevMatch>
@@ -2513,7 +2376,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> E</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2522,10 +2384,7 @@
 								<Number>47</Number>
 								<Player1>58affe9a-3c65-49ce-bb4f-3c193bdb4410</Player1>
 								<Player2>73575c5c-8f17-4337-8786-b10753ef21af</Player2>
-								<Games>3</Games>
 								<Winner>73575c5c-8f17-4337-8786-b10753ef21af</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>51</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>39</Player1PrevMatch>
@@ -2537,7 +2396,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> F</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2546,10 +2404,7 @@
 								<Number>48</Number>
 								<Player1>5c83f710-456d-4ef2-9d23-ef66b28add8e</Player1>
 								<Player2>346a1a08-78bc-49fa-b808-91488969377e</Player2>
-								<Games>3</Games>
 								<Winner>5c83f710-456d-4ef2-9d23-ef66b28add8e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>52</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>40</Player1PrevMatch>
@@ -2562,7 +2417,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2571,10 +2425,7 @@
 								<Number>49</Number>
 								<Player1>4eca6b46-295d-49f8-a691-94a75b6e56c8</Player1>
 								<Player2>24c122a6-da5f-4649-9acb-4bc3191befd2</Player2>
-								<Games>3</Games>
 								<Winner>24c122a6-da5f-4649-9acb-4bc3191befd2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>53</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>42</Player1PrevMatch>
@@ -2587,7 +2438,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2596,10 +2446,7 @@
 								<Number>50</Number>
 								<Player1>85b7f818-9969-45f8-9e60-7a9a72cfdf03</Player1>
 								<Player2>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Player2>
-								<Games>3</Games>
 								<Winner>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>54</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>44</Player1PrevMatch>
@@ -2612,7 +2459,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2621,10 +2467,7 @@
 								<Number>51</Number>
 								<Player1>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Player1>
 								<Player2>73575c5c-8f17-4337-8786-b10753ef21af</Player2>
-								<Games>3</Games>
 								<Winner>73575c5c-8f17-4337-8786-b10753ef21af</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>55</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>46</Player1PrevMatch>
@@ -2637,7 +2480,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2646,10 +2488,7 @@
 								<Number>52</Number>
 								<Player1>5c83f710-456d-4ef2-9d23-ef66b28add8e</Player1>
 								<Player2>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player2>
-								<Games>3</Games>
 								<Winner>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>56</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>48</Player1PrevMatch>
@@ -2661,7 +2500,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> K</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2670,10 +2508,7 @@
 								<Number>53</Number>
 								<Player1>24c122a6-da5f-4649-9acb-4bc3191befd2</Player1>
 								<Player2>dd75e454-1d0f-470f-85a4-3465ba21c546</Player2>
-								<Games>3</Games>
 								<Winner>dd75e454-1d0f-470f-85a4-3465ba21c546</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>56</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>49</Player1PrevMatch>
@@ -2685,7 +2520,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> L</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2694,10 +2528,7 @@
 								<Number>54</Number>
 								<Player1>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Player1>
 								<Player2>ea72f90f-a6a4-4350-9b36-f8a23dff3afc</Player2>
-								<Games>3</Games>
 								<Winner>ea72f90f-a6a4-4350-9b36-f8a23dff3afc</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>57</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>50</Player1PrevMatch>
@@ -2709,7 +2540,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> I</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2718,10 +2548,7 @@
 								<Number>55</Number>
 								<Player1>73575c5c-8f17-4337-8786-b10753ef21af</Player1>
 								<Player2>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player2>
-								<Games>3</Games>
 								<Winner>0b3b78fc-2422-44d4-897c-3241dd851ef6</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>57</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>51</Player1PrevMatch>
@@ -2733,7 +2560,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> J</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2742,10 +2568,7 @@
 								<Number>56</Number>
 								<Player1>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player1>
 								<Player2>dd75e454-1d0f-470f-85a4-3465ba21c546</Player2>
-								<Games>3</Games>
 								<Winner>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>58</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>52</Player1PrevMatch>
@@ -2758,7 +2581,6 @@
 								<Label>
 								</Label>
 								<Round>-5</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2767,10 +2589,7 @@
 								<Number>57</Number>
 								<Player1>ea72f90f-a6a4-4350-9b36-f8a23dff3afc</Player1>
 								<Player2>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player2>
-								<Games>3</Games>
 								<Winner>0b3b78fc-2422-44d4-897c-3241dd851ef6</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>59</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>54</Player1PrevMatch>
@@ -2783,7 +2602,6 @@
 								<Label>
 								</Label>
 								<Round>-5</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2792,10 +2610,7 @@
 								<Number>58</Number>
 								<Player1>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player1>
 								<Player2>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Player2>
-								<Games>3</Games>
 								<Winner>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>60</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>56</Player1PrevMatch>
@@ -2807,7 +2622,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> M</Label>
 								<Round>-6</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2816,10 +2630,7 @@
 								<Number>59</Number>
 								<Player1>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player1>
 								<Player2>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player2>
-								<Games>3</Games>
 								<Winner>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>60</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>57</Player1PrevMatch>
@@ -2831,7 +2642,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> N</Label>
 								<Round>-6</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2840,10 +2650,7 @@
 								<Number>60</Number>
 								<Player1>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player1>
 								<Player2>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player2>
-								<Games>3</Games>
 								<Winner>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>61</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>58</Player1PrevMatch>
@@ -2856,7 +2663,6 @@
 								<Label>
 								</Label>
 								<Round>-7</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2865,10 +2671,7 @@
 								<Number>61</Number>
 								<Player1>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player1>
 								<Player2>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player2>
-								<Games>3</Games>
 								<Winner>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>31</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>60</Player1PrevMatch>
@@ -2880,7 +2683,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> O</Label>
 								<Round>-8</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -2889,10 +2691,7 @@
 								<Number>62</Number>
 								<Player1>00000000-0000-0000-0000-000000000000</Player1>
 								<Player2>00000000-0000-0000-0000-000000000000</Player2>
-								<Games>5</Games>
 								<Winner>00000000-0000-0000-0000-000000000000</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>-1</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>31</Player1PrevMatch>
@@ -2904,59 +2703,174 @@
 								<IsSecondChampionship>True</IsSecondChampionship>
 								<Label> P</Label>
 								<Round>7</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
 							</Match>
 						</Matches>
-						<Ties />
+						<Scoring name="WinnerLoser" />
 					</Bracket>
 				</Game>
 				<Game>
-					<Name>PM Singles</Name>
 					<ID>0191027f-3733-4acd-90e5-68ba33a3c917</ID>
-					<Date>4/13/2014 12:00:00 AM</Date>
+					<Name>PM Singles</Name>
+					<PreviousEventID>00000000-0000-0000-0000-000000000000</PreviousEventID>
+					<Date>04/13/2014 00:00:00</Date>
 					<BracketType>DoubleElim</BracketType>
 					<EntryFee>0</EntryFee>
 					<BasePotSize>0</BasePotSize>
 					<Entrants>
-						<PlayerID seed="1" AmountPaid="0">970ab7d5-82a7-4fc8-bb8e-d805a8fae079</PlayerID>
-						<PlayerID seed="11" AmountPaid="0">d6b92a55-e117-4555-9243-f7cce8f15338</PlayerID>
-						<PlayerID seed="16" AmountPaid="0">d3b73304-c220-49b0-95eb-a10b243c20e8</PlayerID>
-						<PlayerID seed="20" AmountPaid="0">0b3b78fc-2422-44d4-897c-3241dd851ef6</PlayerID>
-						<PlayerID seed="21" AmountPaid="0">4eca6b46-295d-49f8-a691-94a75b6e56c8</PlayerID>
-						<PlayerID seed="8" AmountPaid="0">73575c5c-8f17-4337-8786-b10753ef21af</PlayerID>
-						<PlayerID seed="17" AmountPaid="0">f4f58017-d9a6-4c45-9122-b1676d129750</PlayerID>
-						<PlayerID seed="19" AmountPaid="0">938c7d39-6bd1-4dfc-9127-ba91725f021c</PlayerID>
-						<PlayerID seed="10" AmountPaid="0">28a87a1d-b502-4efc-aa5f-2c0955a67d1e</PlayerID>
-						<PlayerID seed="0" AmountPaid="0">fd477655-8202-4838-b82c-c1f8d109e34e</PlayerID>
-						<PlayerID seed="2" AmountPaid="0">b58c337f-4ca1-4862-956b-c6b9671ff4d9</PlayerID>
-						<PlayerID seed="9" AmountPaid="0">c5ed49cc-476c-41a8-858a-3aacbccb05e4</PlayerID>
-						<PlayerID seed="7" AmountPaid="0">24c122a6-da5f-4649-9acb-4bc3191befd2</PlayerID>
-						<PlayerID seed="18" AmountPaid="0">85b7f818-9969-45f8-9e60-7a9a72cfdf03</PlayerID>
-						<PlayerID seed="4" AmountPaid="0">ecf87cc4-6328-47ab-86ca-0713afbb8c02</PlayerID>
-						<PlayerID seed="3" AmountPaid="0">dd75e454-1d0f-470f-85a4-3465ba21c546</PlayerID>
-						<PlayerID seed="6" AmountPaid="0">323a6cbd-44d0-494a-9882-cd66ddf67d13</PlayerID>
-						<PlayerID seed="12" AmountPaid="0">5c83f710-456d-4ef2-9d23-ef66b28add8e</PlayerID>
-						<PlayerID seed="13" AmountPaid="0">034bf06d-f280-48cf-a782-799630b26c0c</PlayerID>
-						<PlayerID seed="15" AmountPaid="0">97687803-445c-4613-aaa6-6c76b0ba80de</PlayerID>
-						<PlayerID seed="14" AmountPaid="0">ab8080e1-fd94-4300-8447-9994bd51fc34</PlayerID>
-						<PlayerID seed="5" AmountPaid="0">7c4e94c1-ac56-4b55-96e6-8f92682c9b96</PlayerID>
-						<PlayerID seed="18" AmountPaid="0">923f1b81-723c-4028-a478-0c7f3e600623</PlayerID>
+						<Entrant>
+							<PlayerID>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</PlayerID>
+							<Seed>1</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>d6b92a55-e117-4555-9243-f7cce8f15338</PlayerID>
+							<Seed>11</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>d3b73304-c220-49b0-95eb-a10b243c20e8</PlayerID>
+							<Seed>16</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>0b3b78fc-2422-44d4-897c-3241dd851ef6</PlayerID>
+							<Seed>20</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>4eca6b46-295d-49f8-a691-94a75b6e56c8</PlayerID>
+							<Seed>21</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>73575c5c-8f17-4337-8786-b10753ef21af</PlayerID>
+							<Seed>8</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>f4f58017-d9a6-4c45-9122-b1676d129750</PlayerID>
+							<Seed>17</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>938c7d39-6bd1-4dfc-9127-ba91725f021c</PlayerID>
+							<Seed>19</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</PlayerID>
+							<Seed>10</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>fd477655-8202-4838-b82c-c1f8d109e34e</PlayerID>
+							<Seed>0</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>b58c337f-4ca1-4862-956b-c6b9671ff4d9</PlayerID>
+							<Seed>2</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>c5ed49cc-476c-41a8-858a-3aacbccb05e4</PlayerID>
+							<Seed>9</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>24c122a6-da5f-4649-9acb-4bc3191befd2</PlayerID>
+							<Seed>7</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>85b7f818-9969-45f8-9e60-7a9a72cfdf03</PlayerID>
+							<Seed>18</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>ecf87cc4-6328-47ab-86ca-0713afbb8c02</PlayerID>
+							<Seed>4</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>dd75e454-1d0f-470f-85a4-3465ba21c546</PlayerID>
+							<Seed>3</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>323a6cbd-44d0-494a-9882-cd66ddf67d13</PlayerID>
+							<Seed>6</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>5c83f710-456d-4ef2-9d23-ef66b28add8e</PlayerID>
+							<Seed>12</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>034bf06d-f280-48cf-a782-799630b26c0c</PlayerID>
+							<Seed>13</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>97687803-445c-4613-aaa6-6c76b0ba80de</PlayerID>
+							<Seed>15</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>ab8080e1-fd94-4300-8447-9994bd51fc34</PlayerID>
+							<Seed>14</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</PlayerID>
+							<Seed>5</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
+						<Entrant>
+							<PlayerID>923f1b81-723c-4028-a478-0c7f3e600623</PlayerID>
+							<Seed>18</Seed>
+							<AmountPaid>0</AmountPaid>
+							<Status name="Ready" />
+						</Entrant>
 					</Entrants>
 					<GameType>Singles</GameType>
 					<HouseCut>0</HouseCut>
 					<HouseCutType>Percent</HouseCutType>
 					<Payouts removeabsolute="False">
-						<Payout placing="1" amount="70" type="Percentage" />
-						<Payout placing="2" amount="20" type="Percentage" />
-						<Payout placing="3" amount="10" type="Percentage" />
+						<Payout placing="1" amount="70" type="Percent" />
+						<Payout placing="2" amount="20" type="Percent" />
+						<Payout placing="3" amount="10" type="Percent" />
 					</Payouts>
 					<InProgress>False</InProgress>
 					<SeedType>Manual</SeedType>
 					<SeparateByLocation>False</SeparateByLocation>
-					<Seeds>
+					<Seeds name="Manual">
 						<Manual>
 							<PlayerID>fd477655-8202-4838-b82c-c1f8d109e34e</PlayerID>
 							<PlayerID>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</PlayerID>
@@ -2990,25 +2904,21 @@
 					</Seeds>
 					<GameName>P:M</GameName>
 					<Metrics>
-						<BracketStart>1/1/0001 12:00:00 AM</BracketStart>
-						<BracketEnd>12/31/9999 11:59:59 PM</BracketEnd>
-						<OriginalEstimate>12/31/9999 11:59:59 PM</OriginalEstimate>
+						<BracketStart>01/01/0001 00:00:00</BracketStart>
+						<BracketEnd>12/31/9999 23:59:59</BracketEnd>
+						<OriginalEstimate>12/31/9999 23:59:59</OriginalEstimate>
 						<OriginalPhases>2147483647</OriginalPhases>
 						<Milestones />
 					</Metrics>
 					<Bracket>
 						<Size>32</Size>
-						<GamesPerMatch>3</GamesPerMatch>
-						<ChampionshipGames>5</ChampionshipGames>
+						<Ties />
 						<Matches>
 							<Match>
 								<Number>0</Number>
 								<Player1>fd477655-8202-4838-b82c-c1f8d109e34e</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>fd477655-8202-4838-b82c-c1f8d109e34e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>16</WinnerNextMatch>
 								<LoserNextMatch>32</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3021,7 +2931,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3030,10 +2939,7 @@
 								<Number>1</Number>
 								<Player1>97687803-445c-4613-aaa6-6c76b0ba80de</Player1>
 								<Player2>d3b73304-c220-49b0-95eb-a10b243c20e8</Player2>
-								<Games>3</Games>
 								<Winner>97687803-445c-4613-aaa6-6c76b0ba80de</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>16</WinnerNextMatch>
 								<LoserNextMatch>32</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3046,7 +2952,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3055,10 +2960,7 @@
 								<Number>2</Number>
 								<Player1>85b7f818-9969-45f8-9e60-7a9a72cfdf03</Player1>
 								<Player2>923f1b81-723c-4028-a478-0c7f3e600623</Player2>
-								<Games>3</Games>
 								<Winner>923f1b81-723c-4028-a478-0c7f3e600623</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>17</WinnerNextMatch>
 								<LoserNextMatch>33</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3071,7 +2973,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3080,10 +2981,7 @@
 								<Number>3</Number>
 								<Player1>73575c5c-8f17-4337-8786-b10753ef21af</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>73575c5c-8f17-4337-8786-b10753ef21af</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>17</WinnerNextMatch>
 								<LoserNextMatch>33</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3096,7 +2994,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3105,10 +3002,7 @@
 								<Number>4</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>dd75e454-1d0f-470f-85a4-3465ba21c546</Player2>
-								<Games>3</Games>
 								<Winner>dd75e454-1d0f-470f-85a4-3465ba21c546</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>18</WinnerNextMatch>
 								<LoserNextMatch>34</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3121,7 +3015,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3130,10 +3023,7 @@
 								<Number>5</Number>
 								<Player1>5c83f710-456d-4ef2-9d23-ef66b28add8e</Player1>
 								<Player2>938c7d39-6bd1-4dfc-9127-ba91725f021c</Player2>
-								<Games>3</Games>
 								<Winner>5c83f710-456d-4ef2-9d23-ef66b28add8e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>18</WinnerNextMatch>
 								<LoserNextMatch>34</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3146,7 +3036,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3155,10 +3044,7 @@
 								<Number>6</Number>
 								<Player1>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>19</WinnerNextMatch>
 								<LoserNextMatch>35</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3171,7 +3057,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3180,10 +3065,7 @@
 								<Number>7</Number>
 								<Player1>d6b92a55-e117-4555-9243-f7cce8f15338</Player1>
 								<Player2>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player2>
-								<Games>3</Games>
 								<Winner>0b3b78fc-2422-44d4-897c-3241dd851ef6</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>19</WinnerNextMatch>
 								<LoserNextMatch>35</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3196,7 +3078,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3205,10 +3086,7 @@
 								<Number>8</Number>
 								<Player1>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>20</WinnerNextMatch>
 								<LoserNextMatch>36</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3221,7 +3099,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3230,10 +3107,7 @@
 								<Number>9</Number>
 								<Player1>ab8080e1-fd94-4300-8447-9994bd51fc34</Player1>
 								<Player2>f4f58017-d9a6-4c45-9122-b1676d129750</Player2>
-								<Games>3</Games>
 								<Winner>ab8080e1-fd94-4300-8447-9994bd51fc34</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>20</WinnerNextMatch>
 								<LoserNextMatch>36</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3246,7 +3120,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3255,10 +3128,7 @@
 								<Number>10</Number>
 								<Player1>323a6cbd-44d0-494a-9882-cd66ddf67d13</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>323a6cbd-44d0-494a-9882-cd66ddf67d13</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>21</WinnerNextMatch>
 								<LoserNextMatch>37</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3271,7 +3141,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3280,10 +3149,7 @@
 								<Number>11</Number>
 								<Player1>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>21</WinnerNextMatch>
 								<LoserNextMatch>37</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3296,7 +3162,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3305,10 +3170,7 @@
 								<Number>12</Number>
 								<Player1>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>22</WinnerNextMatch>
 								<LoserNextMatch>38</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3321,7 +3183,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3330,10 +3191,7 @@
 								<Number>13</Number>
 								<Player1>24c122a6-da5f-4649-9acb-4bc3191befd2</Player1>
 								<Player2>034bf06d-f280-48cf-a782-799630b26c0c</Player2>
-								<Games>3</Games>
 								<Winner>24c122a6-da5f-4649-9acb-4bc3191befd2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>22</WinnerNextMatch>
 								<LoserNextMatch>38</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3346,7 +3204,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3355,10 +3212,7 @@
 								<Number>14</Number>
 								<Player1>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>23</WinnerNextMatch>
 								<LoserNextMatch>39</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3371,7 +3225,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3380,10 +3233,7 @@
 								<Number>15</Number>
 								<Player1>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Player1>
 								<Player2>4eca6b46-295d-49f8-a691-94a75b6e56c8</Player2>
-								<Games>3</Games>
 								<Winner>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>23</WinnerNextMatch>
 								<LoserNextMatch>39</LoserNextMatch>
 								<Player1PrevMatch>-1</Player1PrevMatch>
@@ -3396,7 +3246,6 @@
 								<Label>
 								</Label>
 								<Round>1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3405,10 +3254,7 @@
 								<Number>16</Number>
 								<Player1>fd477655-8202-4838-b82c-c1f8d109e34e</Player1>
 								<Player2>97687803-445c-4613-aaa6-6c76b0ba80de</Player2>
-								<Games>3</Games>
 								<Winner>fd477655-8202-4838-b82c-c1f8d109e34e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>24</WinnerNextMatch>
 								<LoserNextMatch>42</LoserNextMatch>
 								<Player1PrevMatch>0</Player1PrevMatch>
@@ -3420,7 +3266,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> A</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3429,10 +3274,7 @@
 								<Number>17</Number>
 								<Player1>923f1b81-723c-4028-a478-0c7f3e600623</Player1>
 								<Player2>73575c5c-8f17-4337-8786-b10753ef21af</Player2>
-								<Games>3</Games>
 								<Winner>73575c5c-8f17-4337-8786-b10753ef21af</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>24</WinnerNextMatch>
 								<LoserNextMatch>43</LoserNextMatch>
 								<Player1PrevMatch>2</Player1PrevMatch>
@@ -3444,7 +3286,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> B</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3453,10 +3294,7 @@
 								<Number>18</Number>
 								<Player1>dd75e454-1d0f-470f-85a4-3465ba21c546</Player1>
 								<Player2>5c83f710-456d-4ef2-9d23-ef66b28add8e</Player2>
-								<Games>3</Games>
 								<Winner>5c83f710-456d-4ef2-9d23-ef66b28add8e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>25</WinnerNextMatch>
 								<LoserNextMatch>40</LoserNextMatch>
 								<Player1PrevMatch>4</Player1PrevMatch>
@@ -3468,7 +3306,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> C</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3477,10 +3314,7 @@
 								<Number>19</Number>
 								<Player1>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player1>
 								<Player2>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player2>
-								<Games>3</Games>
 								<Winner>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>25</WinnerNextMatch>
 								<LoserNextMatch>41</LoserNextMatch>
 								<Player1PrevMatch>6</Player1PrevMatch>
@@ -3492,7 +3326,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> D</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3501,10 +3334,7 @@
 								<Number>20</Number>
 								<Player1>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player1>
 								<Player2>ab8080e1-fd94-4300-8447-9994bd51fc34</Player2>
-								<Games>3</Games>
 								<Winner>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>26</WinnerNextMatch>
 								<LoserNextMatch>46</LoserNextMatch>
 								<Player1PrevMatch>8</Player1PrevMatch>
@@ -3516,7 +3346,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> E</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3525,10 +3354,7 @@
 								<Number>21</Number>
 								<Player1>323a6cbd-44d0-494a-9882-cd66ddf67d13</Player1>
 								<Player2>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Player2>
-								<Games>3</Games>
 								<Winner>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>26</WinnerNextMatch>
 								<LoserNextMatch>47</LoserNextMatch>
 								<Player1PrevMatch>10</Player1PrevMatch>
@@ -3540,7 +3366,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> F</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3549,10 +3374,7 @@
 								<Number>22</Number>
 								<Player1>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player1>
 								<Player2>24c122a6-da5f-4649-9acb-4bc3191befd2</Player2>
-								<Games>3</Games>
 								<Winner>24c122a6-da5f-4649-9acb-4bc3191befd2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>27</WinnerNextMatch>
 								<LoserNextMatch>44</LoserNextMatch>
 								<Player1PrevMatch>12</Player1PrevMatch>
@@ -3564,7 +3386,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> G</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3573,10 +3394,7 @@
 								<Number>23</Number>
 								<Player1>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Player1>
 								<Player2>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Player2>
-								<Games>3</Games>
 								<Winner>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>27</WinnerNextMatch>
 								<LoserNextMatch>45</LoserNextMatch>
 								<Player1PrevMatch>14</Player1PrevMatch>
@@ -3588,7 +3406,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> H</Label>
 								<Round>2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3597,10 +3414,7 @@
 								<Number>24</Number>
 								<Player1>fd477655-8202-4838-b82c-c1f8d109e34e</Player1>
 								<Player2>73575c5c-8f17-4337-8786-b10753ef21af</Player2>
-								<Games>3</Games>
 								<Winner>fd477655-8202-4838-b82c-c1f8d109e34e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>28</WinnerNextMatch>
 								<LoserNextMatch>54</LoserNextMatch>
 								<Player1PrevMatch>16</Player1PrevMatch>
@@ -3612,7 +3426,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> I</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3621,10 +3434,7 @@
 								<Number>25</Number>
 								<Player1>5c83f710-456d-4ef2-9d23-ef66b28add8e</Player1>
 								<Player2>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player2>
-								<Games>3</Games>
 								<Winner>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>28</WinnerNextMatch>
 								<LoserNextMatch>55</LoserNextMatch>
 								<Player1PrevMatch>18</Player1PrevMatch>
@@ -3636,7 +3446,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> J</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3645,10 +3454,7 @@
 								<Number>26</Number>
 								<Player1>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player1>
 								<Player2>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Player2>
-								<Games>3</Games>
 								<Winner>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>29</WinnerNextMatch>
 								<LoserNextMatch>52</LoserNextMatch>
 								<Player1PrevMatch>20</Player1PrevMatch>
@@ -3660,7 +3466,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> K</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3669,10 +3474,7 @@
 								<Number>27</Number>
 								<Player1>24c122a6-da5f-4649-9acb-4bc3191befd2</Player1>
 								<Player2>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Player2>
-								<Games>3</Games>
 								<Winner>24c122a6-da5f-4649-9acb-4bc3191befd2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>29</WinnerNextMatch>
 								<LoserNextMatch>53</LoserNextMatch>
 								<Player1PrevMatch>22</Player1PrevMatch>
@@ -3684,7 +3486,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> L</Label>
 								<Round>3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3693,10 +3494,7 @@
 								<Number>28</Number>
 								<Player1>fd477655-8202-4838-b82c-c1f8d109e34e</Player1>
 								<Player2>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player2>
-								<Games>3</Games>
 								<Winner>fd477655-8202-4838-b82c-c1f8d109e34e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>30</WinnerNextMatch>
 								<LoserNextMatch>58</LoserNextMatch>
 								<Player1PrevMatch>24</Player1PrevMatch>
@@ -3708,7 +3506,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> M</Label>
 								<Round>4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3717,10 +3514,7 @@
 								<Number>29</Number>
 								<Player1>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player1>
 								<Player2>24c122a6-da5f-4649-9acb-4bc3191befd2</Player2>
-								<Games>3</Games>
 								<Winner>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>30</WinnerNextMatch>
 								<LoserNextMatch>59</LoserNextMatch>
 								<Player1PrevMatch>26</Player1PrevMatch>
@@ -3732,7 +3526,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> N</Label>
 								<Round>4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3741,10 +3534,7 @@
 								<Number>30</Number>
 								<Player1>fd477655-8202-4838-b82c-c1f8d109e34e</Player1>
 								<Player2>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</Player2>
-								<Games>3</Games>
 								<Winner>00000000-0000-0000-0000-000000000000</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>31</WinnerNextMatch>
 								<LoserNextMatch>61</LoserNextMatch>
 								<Player1PrevMatch>28</Player1PrevMatch>
@@ -3756,7 +3546,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> O</Label>
 								<Round>5</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3765,10 +3554,7 @@
 								<Number>31</Number>
 								<Player1>00000000-0000-0000-0000-000000000000</Player1>
 								<Player2>00000000-0000-0000-0000-000000000000</Player2>
-								<Games>5</Games>
 								<Winner>00000000-0000-0000-0000-000000000000</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>62</WinnerNextMatch>
 								<LoserNextMatch>62</LoserNextMatch>
 								<Player1PrevMatch>30</Player1PrevMatch>
@@ -3780,7 +3566,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> P</Label>
 								<Round>6</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3789,10 +3574,7 @@
 								<Number>32</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>d3b73304-c220-49b0-95eb-a10b243c20e8</Player2>
-								<Games>3</Games>
 								<Winner>d3b73304-c220-49b0-95eb-a10b243c20e8</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>40</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>0</Player1PrevMatch>
@@ -3805,7 +3587,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3814,10 +3595,7 @@
 								<Number>33</Number>
 								<Player1>85b7f818-9969-45f8-9e60-7a9a72cfdf03</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>85b7f818-9969-45f8-9e60-7a9a72cfdf03</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>41</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>2</Player1PrevMatch>
@@ -3830,7 +3608,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3839,10 +3616,7 @@
 								<Number>34</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>938c7d39-6bd1-4dfc-9127-ba91725f021c</Player2>
-								<Games>3</Games>
 								<Winner>938c7d39-6bd1-4dfc-9127-ba91725f021c</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>42</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>4</Player1PrevMatch>
@@ -3855,7 +3629,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3864,10 +3637,7 @@
 								<Number>35</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>d6b92a55-e117-4555-9243-f7cce8f15338</Player2>
-								<Games>3</Games>
 								<Winner>d6b92a55-e117-4555-9243-f7cce8f15338</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>43</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>6</Player1PrevMatch>
@@ -3880,7 +3650,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3889,10 +3658,7 @@
 								<Number>36</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>f4f58017-d9a6-4c45-9122-b1676d129750</Player2>
-								<Games>3</Games>
 								<Winner>f4f58017-d9a6-4c45-9122-b1676d129750</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>44</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>8</Player1PrevMatch>
@@ -3905,7 +3671,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3914,10 +3679,7 @@
 								<Number>37</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>00000001-0001-0001-0101-010101010101</Player2>
-								<Games>3</Games>
 								<Winner>00000001-0001-0001-0101-010101010101</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>45</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>10</Player1PrevMatch>
@@ -3930,7 +3692,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3939,10 +3700,7 @@
 								<Number>38</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>034bf06d-f280-48cf-a782-799630b26c0c</Player2>
-								<Games>3</Games>
 								<Winner>034bf06d-f280-48cf-a782-799630b26c0c</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>46</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>12</Player1PrevMatch>
@@ -3955,7 +3713,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3964,10 +3721,7 @@
 								<Number>39</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>4eca6b46-295d-49f8-a691-94a75b6e56c8</Player2>
-								<Games>3</Games>
 								<Winner>4eca6b46-295d-49f8-a691-94a75b6e56c8</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>47</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>14</Player1PrevMatch>
@@ -3980,7 +3734,6 @@
 								<Label>
 								</Label>
 								<Round>-1</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -3989,10 +3742,7 @@
 								<Number>40</Number>
 								<Player1>d3b73304-c220-49b0-95eb-a10b243c20e8</Player1>
 								<Player2>dd75e454-1d0f-470f-85a4-3465ba21c546</Player2>
-								<Games>3</Games>
 								<Winner>dd75e454-1d0f-470f-85a4-3465ba21c546</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>48</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>32</Player1PrevMatch>
@@ -4004,7 +3754,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> C</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4013,10 +3762,7 @@
 								<Number>41</Number>
 								<Player1>85b7f818-9969-45f8-9e60-7a9a72cfdf03</Player1>
 								<Player2>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player2>
-								<Games>3</Games>
 								<Winner>0b3b78fc-2422-44d4-897c-3241dd851ef6</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>48</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>33</Player1PrevMatch>
@@ -4028,7 +3774,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> D</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4037,10 +3782,7 @@
 								<Number>42</Number>
 								<Player1>938c7d39-6bd1-4dfc-9127-ba91725f021c</Player1>
 								<Player2>97687803-445c-4613-aaa6-6c76b0ba80de</Player2>
-								<Games>3</Games>
 								<Winner>97687803-445c-4613-aaa6-6c76b0ba80de</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>49</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>34</Player1PrevMatch>
@@ -4052,7 +3794,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> A</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4061,10 +3802,7 @@
 								<Number>43</Number>
 								<Player1>d6b92a55-e117-4555-9243-f7cce8f15338</Player1>
 								<Player2>923f1b81-723c-4028-a478-0c7f3e600623</Player2>
-								<Games>3</Games>
 								<Winner>923f1b81-723c-4028-a478-0c7f3e600623</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>49</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>35</Player1PrevMatch>
@@ -4076,7 +3814,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> B</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4085,10 +3822,7 @@
 								<Number>44</Number>
 								<Player1>f4f58017-d9a6-4c45-9122-b1676d129750</Player1>
 								<Player2>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player2>
-								<Games>3</Games>
 								<Winner>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>50</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>36</Player1PrevMatch>
@@ -4100,7 +3834,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> G</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4109,10 +3842,7 @@
 								<Number>45</Number>
 								<Player1>00000001-0001-0001-0101-010101010101</Player1>
 								<Player2>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Player2>
-								<Games>3</Games>
 								<Winner>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>50</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>37</Player1PrevMatch>
@@ -4124,7 +3854,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> H</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4133,10 +3862,7 @@
 								<Number>46</Number>
 								<Player1>034bf06d-f280-48cf-a782-799630b26c0c</Player1>
 								<Player2>ab8080e1-fd94-4300-8447-9994bd51fc34</Player2>
-								<Games>3</Games>
 								<Winner>034bf06d-f280-48cf-a782-799630b26c0c</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>51</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>38</Player1PrevMatch>
@@ -4148,7 +3874,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> E</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4157,10 +3882,7 @@
 								<Number>47</Number>
 								<Player1>4eca6b46-295d-49f8-a691-94a75b6e56c8</Player1>
 								<Player2>323a6cbd-44d0-494a-9882-cd66ddf67d13</Player2>
-								<Games>3</Games>
 								<Winner>323a6cbd-44d0-494a-9882-cd66ddf67d13</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>51</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>39</Player1PrevMatch>
@@ -4172,7 +3894,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> F</Label>
 								<Round>-2</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4181,10 +3902,7 @@
 								<Number>48</Number>
 								<Player1>dd75e454-1d0f-470f-85a4-3465ba21c546</Player1>
 								<Player2>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player2>
-								<Games>3</Games>
 								<Winner>0b3b78fc-2422-44d4-897c-3241dd851ef6</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>52</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>40</Player1PrevMatch>
@@ -4197,7 +3915,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4206,10 +3923,7 @@
 								<Number>49</Number>
 								<Player1>97687803-445c-4613-aaa6-6c76b0ba80de</Player1>
 								<Player2>923f1b81-723c-4028-a478-0c7f3e600623</Player2>
-								<Games>3</Games>
 								<Winner>923f1b81-723c-4028-a478-0c7f3e600623</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>53</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>42</Player1PrevMatch>
@@ -4222,7 +3936,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4231,10 +3944,7 @@
 								<Number>50</Number>
 								<Player1>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player1>
 								<Player2>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</Player2>
-								<Games>3</Games>
 								<Winner>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>54</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>44</Player1PrevMatch>
@@ -4247,7 +3957,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4256,10 +3965,7 @@
 								<Number>51</Number>
 								<Player1>034bf06d-f280-48cf-a782-799630b26c0c</Player1>
 								<Player2>323a6cbd-44d0-494a-9882-cd66ddf67d13</Player2>
-								<Games>3</Games>
 								<Winner>323a6cbd-44d0-494a-9882-cd66ddf67d13</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>55</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>46</Player1PrevMatch>
@@ -4272,7 +3978,6 @@
 								<Label>
 								</Label>
 								<Round>-3</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4281,10 +3986,7 @@
 								<Number>52</Number>
 								<Player1>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player1>
 								<Player2>c5ed49cc-476c-41a8-858a-3aacbccb05e4</Player2>
-								<Games>3</Games>
 								<Winner>0b3b78fc-2422-44d4-897c-3241dd851ef6</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>56</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>48</Player1PrevMatch>
@@ -4296,7 +3998,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> K</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4305,10 +4006,7 @@
 								<Number>53</Number>
 								<Player1>923f1b81-723c-4028-a478-0c7f3e600623</Player1>
 								<Player2>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Player2>
-								<Games>3</Games>
 								<Winner>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>56</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>49</Player1PrevMatch>
@@ -4320,7 +4018,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> L</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4329,10 +4026,7 @@
 								<Number>54</Number>
 								<Player1>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player1>
 								<Player2>73575c5c-8f17-4337-8786-b10753ef21af</Player2>
-								<Games>3</Games>
 								<Winner>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>57</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>50</Player1PrevMatch>
@@ -4344,7 +4038,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> I</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4353,10 +4046,7 @@
 								<Number>55</Number>
 								<Player1>323a6cbd-44d0-494a-9882-cd66ddf67d13</Player1>
 								<Player2>5c83f710-456d-4ef2-9d23-ef66b28add8e</Player2>
-								<Games>3</Games>
 								<Winner>323a6cbd-44d0-494a-9882-cd66ddf67d13</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>57</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>51</Player1PrevMatch>
@@ -4368,7 +4058,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> J</Label>
 								<Round>-4</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4377,10 +4066,7 @@
 								<Number>56</Number>
 								<Player1>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player1>
 								<Player2>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</Player2>
-								<Games>3</Games>
 								<Winner>0b3b78fc-2422-44d4-897c-3241dd851ef6</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>58</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>52</Player1PrevMatch>
@@ -4393,7 +4079,6 @@
 								<Label>
 								</Label>
 								<Round>-5</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4402,10 +4087,7 @@
 								<Number>57</Number>
 								<Player1>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player1>
 								<Player2>323a6cbd-44d0-494a-9882-cd66ddf67d13</Player2>
-								<Games>3</Games>
 								<Winner>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>59</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>54</Player1PrevMatch>
@@ -4418,7 +4100,6 @@
 								<Label>
 								</Label>
 								<Round>-5</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4427,10 +4108,7 @@
 								<Number>58</Number>
 								<Player1>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player1>
 								<Player2>ecf87cc4-6328-47ab-86ca-0713afbb8c02</Player2>
-								<Games>3</Games>
 								<Winner>0b3b78fc-2422-44d4-897c-3241dd851ef6</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>60</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>56</Player1PrevMatch>
@@ -4442,7 +4120,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> M</Label>
 								<Round>-6</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4451,10 +4128,7 @@
 								<Number>59</Number>
 								<Player1>b58c337f-4ca1-4862-956b-c6b9671ff4d9</Player1>
 								<Player2>24c122a6-da5f-4649-9acb-4bc3191befd2</Player2>
-								<Games>3</Games>
 								<Winner>24c122a6-da5f-4649-9acb-4bc3191befd2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>60</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>57</Player1PrevMatch>
@@ -4466,7 +4140,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> N</Label>
 								<Round>-6</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4475,10 +4148,7 @@
 								<Number>60</Number>
 								<Player1>0b3b78fc-2422-44d4-897c-3241dd851ef6</Player1>
 								<Player2>24c122a6-da5f-4649-9acb-4bc3191befd2</Player2>
-								<Games>3</Games>
 								<Winner>24c122a6-da5f-4649-9acb-4bc3191befd2</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>61</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>58</Player1PrevMatch>
@@ -4491,7 +4161,6 @@
 								<Label>
 								</Label>
 								<Round>-7</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4500,10 +4169,7 @@
 								<Number>61</Number>
 								<Player1>24c122a6-da5f-4649-9acb-4bc3191befd2</Player1>
 								<Player2>00000000-0000-0000-0000-000000000000</Player2>
-								<Games>3</Games>
 								<Winner>00000000-0000-0000-0000-000000000000</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>31</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>60</Player1PrevMatch>
@@ -4515,7 +4181,6 @@
 								<IsSecondChampionship>False</IsSecondChampionship>
 								<Label> O</Label>
 								<Round>-8</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
@@ -4524,10 +4189,7 @@
 								<Number>62</Number>
 								<Player1>00000000-0000-0000-0000-000000000000</Player1>
 								<Player2>00000000-0000-0000-0000-000000000000</Player2>
-								<Games>5</Games>
 								<Winner>00000000-0000-0000-0000-000000000000</Winner>
-								<Margin>
-								</Margin>
 								<WinnerNextMatch>-1</WinnerNextMatch>
 								<LoserNextMatch>-1</LoserNextMatch>
 								<Player1PrevMatch>31</Player1PrevMatch>
@@ -4539,13 +4201,12 @@
 								<IsSecondChampionship>True</IsSecondChampionship>
 								<Label> P</Label>
 								<Round>7</Round>
-								<Losses>0</Losses>
 								<Note>
 								</Note>
 								<InProgress>False</InProgress>
 							</Match>
 						</Matches>
-						<Ties />
+						<Scoring name="WinnerLoser" />
 					</Bracket>
 				</Game>
 			</Games>
@@ -4560,6 +4221,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>7a6a765e-8b9b-48db-b10c-2586281b933b</ID>
 			</Player>
@@ -4569,6 +4232,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>b8e9b098-ed01-4880-b385-6db353131561</ID>
 			</Player>
@@ -4578,6 +4243,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>79b91344-1176-456d-a707-dfc77c6d9ab2</ID>
 			</Player>
@@ -4587,6 +4254,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>e48f5e72-ef85-4eaa-99f3-c98bd562532a</ID>
 			</Player>
@@ -4596,6 +4265,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>ab145a4a-2f4e-47af-9167-ab47c5ed7b89</ID>
 			</Player>
@@ -4605,6 +4276,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>1f935d1d-6521-415a-a567-5906c594d83a</ID>
 			</Player>
@@ -4614,6 +4287,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>868fd437-2e11-4354-a5cc-2b059f2d4c64</ID>
 			</Player>
@@ -4623,6 +4298,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>a815d527-837b-4570-b682-0e0d184605c1</ID>
 			</Player>
@@ -4632,6 +4309,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>f9db7ac4-0cc6-47b3-b984-945d9b980c2d</ID>
 			</Player>
@@ -4641,6 +4320,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>5c397c81-c9e1-423e-908d-306f48bdb07f</ID>
 			</Player>
@@ -4650,6 +4331,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>939aabce-7814-4041-b4d0-023a491e9d65</ID>
 			</Player>
@@ -4659,6 +4342,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>0711d212-6ec7-42a6-8502-028b70b76c63</ID>
 			</Player>
@@ -4668,6 +4353,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>351d774a-44a1-4e36-95d2-6666d31c81f1</ID>
 			</Player>
@@ -4677,6 +4364,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>910c8f37-3741-43ff-9c86-a6be2b3c1f34</ID>
 			</Player>
@@ -4687,6 +4376,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>970ab7d5-82a7-4fc8-bb8e-d805a8fae079</ID>
 			</Player>
@@ -4697,6 +4388,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>d3b73304-c220-49b0-95eb-a10b243c20e8</ID>
 			</Player>
@@ -4707,6 +4400,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>0b3b78fc-2422-44d4-897c-3241dd851ef6</ID>
 			</Player>
@@ -4717,6 +4412,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>4eca6b46-295d-49f8-a691-94a75b6e56c8</ID>
 			</Player>
@@ -4727,6 +4424,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>346a1a08-78bc-49fa-b808-91488969377e</ID>
 			</Player>
@@ -4737,6 +4436,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>73575c5c-8f17-4337-8786-b10753ef21af</ID>
 			</Player>
@@ -4747,6 +4448,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>ef234556-d17d-4456-9acf-82d78202d900</ID>
 			</Player>
@@ -4757,6 +4460,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>3eb6aef9-2325-4def-9c4c-78b4c16382aa</ID>
 			</Player>
@@ -4767,6 +4472,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>938c7d39-6bd1-4dfc-9127-ba91725f021c</ID>
 			</Player>
@@ -4777,6 +4484,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>28a87a1d-b502-4efc-aa5f-2c0955a67d1e</ID>
 			</Player>
@@ -4787,6 +4496,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>0c34e59c-2390-44ac-a5da-b0a6da5b901a</ID>
 			</Player>
@@ -4797,6 +4508,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>b58c337f-4ca1-4862-956b-c6b9671ff4d9</ID>
 			</Player>
@@ -4807,6 +4520,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>c5ed49cc-476c-41a8-858a-3aacbccb05e4</ID>
 			</Player>
@@ -4817,6 +4532,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>24c122a6-da5f-4649-9acb-4bc3191befd2</ID>
 			</Player>
@@ -4827,6 +4544,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>85b7f818-9969-45f8-9e60-7a9a72cfdf03</ID>
 			</Player>
@@ -4837,6 +4556,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>ecf87cc4-6328-47ab-86ca-0713afbb8c02</ID>
 			</Player>
@@ -4847,6 +4568,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>dd75e454-1d0f-470f-85a4-3465ba21c546</ID>
 			</Player>
@@ -4857,6 +4580,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>323a6cbd-44d0-494a-9882-cd66ddf67d13</ID>
 			</Player>
@@ -4867,6 +4592,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>5c83f710-456d-4ef2-9d23-ef66b28add8e</ID>
 			</Player>
@@ -4877,6 +4604,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>034bf06d-f280-48cf-a782-799630b26c0c</ID>
 			</Player>
@@ -4887,6 +4616,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>97687803-445c-4613-aaa6-6c76b0ba80de</ID>
 			</Player>
@@ -4897,6 +4628,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>d1219c16-1db5-4591-85d2-5111929b3e63</ID>
 			</Player>
@@ -4907,6 +4640,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>2898aeaf-6066-489b-b499-c54d75638251</ID>
 			</Player>
@@ -4917,6 +4652,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>ab8080e1-fd94-4300-8447-9994bd51fc34</ID>
 			</Player>
@@ -4927,6 +4664,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>30fd3dbc-e03b-484e-adf8-21f1c445d59e</ID>
 			</Player>
@@ -4937,6 +4676,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>4187da71-e70c-4056-b98f-af8e14a87a9d</ID>
 			</Player>
@@ -4947,6 +4688,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>156cb70c-47b3-4c94-9dfe-4f4ad52fba8c</ID>
 			</Player>
@@ -4957,6 +4700,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>fd477655-8202-4838-b82c-c1f8d109e34e</ID>
 			</Player>
@@ -4967,6 +4712,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>368a6e23-8570-4424-9636-1792031bef25</ID>
 			</Player>
@@ -4977,6 +4724,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>d6b92a55-e117-4555-9243-f7cce8f15338</ID>
 			</Player>
@@ -4987,6 +4736,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>f4f58017-d9a6-4c45-9122-b1676d129750</ID>
 			</Player>
@@ -4997,6 +4748,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>7c4e94c1-ac56-4b55-96e6-8f92682c9b96</ID>
 			</Player>
@@ -5007,6 +4760,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>923f1b81-723c-4028-a478-0c7f3e600623</ID>
 			</Player>
@@ -5017,6 +4772,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>ea72f90f-a6a4-4350-9b36-f8a23dff3afc</ID>
 			</Player>
@@ -5027,6 +4784,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>4132bc73-ddbd-435d-a1f6-bad5967f9a57</ID>
 			</Player>
@@ -5037,6 +4796,8 @@
 				<Skill>5</Skill>
 				<Location>
 				</Location>
+				<EmailAddress>
+				</EmailAddress>
 				<IsBye>False</IsBye>
 				<ID>58affe9a-3c65-49ce-bb4f-3c193bdb4410</ID>
 			</Player>

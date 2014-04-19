@@ -26,7 +26,7 @@ class Commands
 		end
 		result = []
 		args.each do |player|
-			puts "#{player} has lost against #{$winLoss[player][:wonAgainst]}"
+			puts "#{player} has lost against #{$winLoss[player][:lostAgainst]}"
 		end
 	end
 	def self.help(args)

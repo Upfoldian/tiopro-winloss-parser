@@ -1,7 +1,6 @@
 #Written by Thomas Upfold for smash community
 #TODO:
-# => do other functions 
-# => addBracket not working for files other than "Brackets.tio" I don't even
+# => do the alias functionality
 
 require 'nokogiri'
 require_relative 'commands.rb'
