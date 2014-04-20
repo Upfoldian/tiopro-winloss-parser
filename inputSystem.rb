@@ -9,18 +9,18 @@ $players = Hash.new{|hash,key| hash[key] = []}
 $winLoss = Hash.new({:wonAgainst => [], :lostAgainst => [] })
 $IDtoPlayer = {}
 
-menuLoop = true
-while (menuLoop)
+while (true)
 	begin
 		args = gets.chomp.split
 		commandToken = args[0]
+		if (commandToken.downcase == 'exit' || commandToken.downcase == 'quit') 
+			puts "seeya"
+			break;
+		end
 		args.shift
 		args = args.join(' ')[1..-2].split(/" "/)
-		if (commandToken == 'exit' || commandToken == 'quit') 
-			menuLoop = false
-		else
-			Commands.send(commandToken, args)
-		end
+		puts "Command Token: #{commandToken}, Args: #{args.to_s}"
+		Commands.send(commandToken, args)
 	rescue NoMethodError
 		puts "#{commandToken} is not a valid command. Type 'help' for a list of commands."
 	end

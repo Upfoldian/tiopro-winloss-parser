@@ -3,7 +3,15 @@ class Commands
 		#Usage assign "player1" "player2"
 		#Assigns one alias to another for discrepancies across tournaments
 		# => Should store these assignments so they don't need to be run each time
-		puts "assign"
+		#First add player2 stuff to player1
+		$winLoss[args[0]][:wonAgainst] += $winLoss[args[1]][:wonAgainst]
+		$winLoss[args[0]][:lostAgainst] += $winLoss[args[1]][:lostAgainst]
+
+		#Then change all player2 entries to player1
+		$winLoss.each_key do |key|
+			$winLoss[key][:wonAgainst].map!{|x| x == args[1] ? args[0] : x}
+			$winLoss[key][:lostAgainst].map!{|x| x == args[1] ? args[0] : x}
+		end
 	end
 	def self.wins(args)
 		#Usage wins "player1" "player2" ... "playerN"
@@ -34,7 +42,6 @@ class Commands
 	end
 	def self.addBracket(args)
 		#Usage addBracket "filePath" "bracketName"
-		puts args[0]
 		tioFile = Nokogiri::XML(open(args[0]))
 		tioFile.xpath("//Players/Player").each do |node|
 			$IDtoPlayer[node.xpath("ID").text] = node.xpath("Nickname").text
