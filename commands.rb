@@ -1,3 +1,4 @@
+require 'nokogiri'
 class Commands
 	def self.assign(args)
 		#Usage assign "player1" "player2"
@@ -45,7 +46,6 @@ class Commands
 		tioFile = Nokogiri::XML(open(args[0]))
 		tioFile.xpath("//Players/Player").each do |node|
 			$IDtoPlayer[node.xpath("ID").text] = node.xpath("Nickname").text
-			# Couldn't get the nokogiri node funtions working properly so i used the xpath, it sucks, i know
 		end
 		#gets win/loss data and converts the ID associated with the players involved and replaces
 		#it with their nickname/alias i.e. someNumbers => 'AkiTheBakaQueen'
@@ -63,8 +63,8 @@ class Commands
 					winner = $IDtoPlayer[match.xpath("Winner").text]
 					loser = (player1 == winner ? player2 : player1)
 
-					$winLoss[winner][:wonAgainst].push(loser)
-					$winLoss[loser][:lostAgainst].push(winner)
+					$winLoss[winner][:wonAgainst].push(loser) unless $winLoss[winner][:wonAgainst].has_value?(loser)
+					$winLoss[loser][:lostAgainst].push(winner) unless $winLoss[winner][:lostAgainst].has_value?(winner)
 				end
 			end
 		end
